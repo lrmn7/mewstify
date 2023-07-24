@@ -26,7 +26,7 @@ Hi, i'm L RMN.
 
 ## 🔗 Resource Links
 
-- 🌌 Dashboard: [Dashboard](https://lrmn.hop.sh/selector)
+- 🌌 Dashboard: [Dashboard](https://lrmn-bot.hop.sh/)
 - 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=8&scope=bot%20applications.commands)
 - 🤝 Support Server: [Join Here](https://discord.gg/WFfjrQxnfH)
 - 📂 Documentation URL: [Visit Here](https://lucy-docs.is-a.fun)

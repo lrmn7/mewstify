@@ -5,7 +5,7 @@ module.exports = {
   SUPPORT_SERVER: "http://lrmn.is-a.dev/server-discord/", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: ".", // Default prefix for the bot
+    DEFAULT_PREFIX: "+", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
