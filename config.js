@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   OWNER_IDS: ["742457036914294855"], // Bot owner ID's
   SUPPORT_SERVER: "http://lrmn.is-a.dev/server-discord/", // Your bot support server
@@ -36,10 +38,10 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
-    baseURL: "https://lrmn-bot.hop.sh", // base url
-    failureURL: "https://lrmn-bot.hop.sh", // failure redirect url
-    port: "8080", // port to run the bot on
+    enabled: process.env.DASHBOARD_ENABLED === "true" || true,
+    baseURL: process.env.DASHBOARD_BASE_URL || "http://localhost:8080",
+    failureURL: process.env.DASHBOARD_FAILURE_URL || "http://localhost:8080",
+    port: process.env.DASHBOARD_PORT || "8080",
   },
 
   ECONOMY: {
@@ -59,12 +61,13 @@ module.exports = {
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "lavalink.devamop.in",
-        port: 80,
-        password: "DevamOP",
-        id:"Main",
-        secure: false
+        host: process.env.LAVALINK_HOST || "lavalink.devamop.in",
+        port: process.env.LAVALINK_PORT ? parseInt(process.env.LAVALINK_PORT) : 80,
+        password: process.env.LAVALINK_PASSWORD || "DevamOP",
+        id: process.env.LAVALINK_ID || "Main",
+        secure: process.env.LAVALINK_SECURE === "true" || false,
       },
+      // Tambahkan node Lavalink lainnya sesuai kebutuhan
     ],
   },
 
