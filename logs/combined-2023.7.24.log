@@ -1,0 +1,533 @@
+{"level":30,"time":1690210291185,"pid":5228,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690210291660,"pid":5228,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690210295289,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690210295290,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690210295291,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690210295292,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690210295292,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690210295321,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690210295321,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690210295322,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690210295323,"pid":5228,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690210295323,"pid":5228,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690210295329,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690210295329,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690210295330,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690210295330,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690210295331,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690210295331,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690210295331,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690210295332,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690210295332,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690210295332,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690210295333,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690210295334,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690210295335,"pid":5228,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690210295335,"pid":5228,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690210295360,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690210295361,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690210295361,"pid":5228,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690210295362,"pid":5228,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690210295363,"pid":5228,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690210295363,"pid":5228,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690210295363,"pid":5228,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690210295394,"pid":5228,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690210295394,"pid":5228,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690210295394,"pid":5228,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690210295395,"pid":5228,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690210295395,"pid":5228,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690210295395,"pid":5228,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690210295422,"pid":5228,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690210295794,"pid":5228,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690210295794,"pid":5228,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690210295794,"pid":5228,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690210297052,"pid":5228,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690210297911,"pid":5228,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690210297953,"pid":5228,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690210304933,"pid":5228,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690210304933,"pid":5228,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690210304934,"pid":5228,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690210304934,"pid":5228,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690210304967,"pid":5228,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690210305352,"pid":5228,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"69w7qxf1176bnk6a\",\"op\":\"ready\"}"}
+{"level":20,"time":1690210305352,"pid":5228,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":5,\"uptime\":775822881,\"memory\":{\"free\":250813896,\"used\":294445624,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.057692307692307696},\"op\":\"stats\"}"}
+{"level":30,"time":1690210305352,"pid":5228,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690210305352,"pid":5228,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 418ms"}
+{"level":30,"time":1690210307548,"pid":5228,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":30,"time":1690210340408,"pid":14444,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690210340436,"pid":14444,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690210340795,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690210340795,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690210340796,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690210340798,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690210340798,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690210340804,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690210340804,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690210340805,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690210340806,"pid":14444,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690210340806,"pid":14444,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690210340812,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690210340813,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690210340813,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690210340814,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690210340814,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690210340814,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690210340815,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690210340815,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690210340815,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690210340816,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690210340817,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690210340817,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690210340818,"pid":14444,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690210340819,"pid":14444,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690210340827,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690210340827,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690210340828,"pid":14444,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690210340829,"pid":14444,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690210340831,"pid":14444,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690210340831,"pid":14444,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690210340832,"pid":14444,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690210340842,"pid":14444,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690210340842,"pid":14444,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690210340842,"pid":14444,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690210340843,"pid":14444,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690210340843,"pid":14444,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690210340843,"pid":14444,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690210340865,"pid":14444,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690210341276,"pid":14444,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690210341276,"pid":14444,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690210341276,"pid":14444,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690210341364,"pid":14444,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690210341670,"pid":14444,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690210341682,"pid":14444,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690210342867,"pid":14444,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690210342867,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690210342868,"pid":14444,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690210342868,"pid":14444,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690210342900,"pid":14444,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690210343255,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"rjoneoskv8x72gzm\",\"op\":\"ready\"}"}
+{"level":20,"time":1690210343255,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":5,\"uptime\":775860777,\"memory\":{\"free\":355900224,\"used\":189359296,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.3403141361256545,\"lavalinkLoad\":0.04056795131845842},\"op\":\"stats\"}"}
+{"level":30,"time":1690210343255,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690210343255,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 387ms"}
+{"level":30,"time":1690210343593,"pid":14444,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690210398486,"pid":14444,"hostname":"Nezuko","query":{},"body":{}}
+{"level":50,"time":1690210398486,"pid":14444,"hostname":"Nezuko","msg":"Failed to login to dashboard! Check /logs folder for more details"}
+{"level":20,"time":1690210403250,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":31,\"playingPlayers\":7,\"uptime\":775920777,\"memory\":{\"free\":212295560,\"used\":332963960,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.32978723404255317,\"lavalinkLoad\":0.03556910569105691},\"op\":\"stats\"}"}
+{"level":30,"time":1690210428799,"pid":14444,"hostname":"Nezuko","msg":"Guild Joined: Be Members: 4"}
+{"level":20,"time":1690210463254,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":32,\"playingPlayers\":8,\"uptime\":775980777,\"memory\":{\"free\":80101488,\"used\":465158032,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.5079365079365079,\"lavalinkLoad\":0.04563894523326572},\"op\":\"stats\"}"}
+{"level":20,"time":1690210523254,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":32,\"playingPlayers\":8,\"uptime\":776040777,\"memory\":{\"free\":317716432,\"used\":227543088,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.32786885245901637,\"lavalinkLoad\":0.04056795131845842},\"op\":\"stats\"}"}
+{"level":20,"time":1690210583255,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":32,\"playingPlayers\":8,\"uptime\":776100777,\"memory\":{\"free\":260582952,\"used\":284676568,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.6075268817204301,\"lavalinkLoad\":0.05070993914807302},\"op\":\"stats\"}"}
+{"level":20,"time":1690210643258,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":7,\"uptime\":776160777,\"memory\":{\"free\":120180976,\"used\":425078544,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.6105263157894737,\"lavalinkLoad\":0.055780933062880324},\"op\":\"stats\"}"}
+{"level":20,"time":1690210703260,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":7,\"uptime\":776220777,\"memory\":{\"free\":357892768,\"used\":187366752,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.48936170212765956,\"lavalinkLoad\":0.055780933062880324},\"op\":\"stats\"}"}
+{"level":20,"time":1690210763261,"pid":14444,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":9,\"uptime\":776280777,\"memory\":{\"free\":213126952,\"used\":332132568,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.6578947368421053,\"lavalinkLoad\":0.06097560975609756},\"op\":\"stats\"}"}
+{"level":30,"time":1690210805110,"pid":13152,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690210805139,"pid":13152,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690210805471,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690210805472,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690210805473,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690210805474,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690210805474,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690210805479,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690210805480,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690210805480,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690210805481,"pid":13152,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690210805482,"pid":13152,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690210805487,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690210805488,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690210805489,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690210805489,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690210805490,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690210805490,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690210805491,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690210805491,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690210805491,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690210805492,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690210805493,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690210805494,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690210805495,"pid":13152,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690210805496,"pid":13152,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690210805506,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690210805507,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690210805509,"pid":13152,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690210805510,"pid":13152,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690210805511,"pid":13152,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690210805511,"pid":13152,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690210805511,"pid":13152,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690210805521,"pid":13152,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690210805521,"pid":13152,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690210805521,"pid":13152,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690210805522,"pid":13152,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690210805522,"pid":13152,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690210805522,"pid":13152,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690210805544,"pid":13152,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690210805967,"pid":13152,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690210805967,"pid":13152,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690210805967,"pid":13152,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690210806049,"pid":13152,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690210806717,"pid":13152,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690210806729,"pid":13152,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690210808040,"pid":13152,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690210808040,"pid":13152,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690210808041,"pid":13152,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690210808041,"pid":13152,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690210808078,"pid":13152,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690210808458,"pid":13152,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"zxty1xbpaq67qkpn\",\"op\":\"ready\"}"}
+{"level":20,"time":1690210808458,"pid":13152,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":9,\"uptime\":776325970,\"memory\":{\"free\":104561744,\"used\":440697776,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.35833333333333334,\"lavalinkLoad\":0.06782945736434108},\"op\":\"stats\"}"}
+{"level":30,"time":1690210808458,"pid":13152,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690210808458,"pid":13152,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 417ms"}
+{"level":30,"time":1690210809107,"pid":13152,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":30,"time":1690210857831,"pid":19436,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690210857860,"pid":19436,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690210858189,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690210858190,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690210858191,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690210858192,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690210858192,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690210858198,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690210858198,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690210858199,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690210858200,"pid":19436,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690210858200,"pid":19436,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690210858206,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690210858207,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690210858207,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690210858208,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690210858208,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690210858208,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690210858209,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690210858209,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690210858209,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690210858210,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690210858210,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690210858211,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690210858212,"pid":19436,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690210858213,"pid":19436,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690210858222,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690210858223,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690210858223,"pid":19436,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690210858224,"pid":19436,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690210858225,"pid":19436,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690210858225,"pid":19436,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690210858225,"pid":19436,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690210858235,"pid":19436,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690210858235,"pid":19436,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690210858236,"pid":19436,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690210858236,"pid":19436,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690210858236,"pid":19436,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690210858236,"pid":19436,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690210858258,"pid":19436,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690210858653,"pid":19436,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690210858653,"pid":19436,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690210858653,"pid":19436,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690210858732,"pid":19436,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690210859071,"pid":19436,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690210859082,"pid":19436,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690210860213,"pid":19436,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690210860213,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690210860214,"pid":19436,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690210860214,"pid":19436,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690210860246,"pid":19436,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690210860597,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"cgzwfhfdra83yutz\",\"op\":\"ready\"}"}
+{"level":30,"time":1690210860597,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690210860597,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 383ms"}
+{"level":20,"time":1690210860597,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":8,\"uptime\":776378105,\"memory\":{\"free\":340748304,\"used\":204511216,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.04132231404958678},\"op\":\"stats\"}"}
+{"level":30,"time":1690210861185,"pid":19436,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690210920590,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":8,\"uptime\":776438105,\"memory\":{\"free\":333571376,\"used\":211688144,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.04132231404958678},\"op\":\"stats\"}"}
+{"level":20,"time":1690210980591,"pid":19436,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":7,\"uptime\":776498105,\"memory\":{\"free\":189250080,\"used\":356009440,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.04132231404958678},\"op\":\"stats\"}"}
+{"level":30,"time":1690211009687,"pid":17000,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690211009716,"pid":17000,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690211010049,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690211010049,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690211010050,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690211010051,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690211010052,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690211010057,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690211010057,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690211010058,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690211010059,"pid":17000,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690211010059,"pid":17000,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690211010065,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690211010065,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690211010066,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690211010066,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690211010067,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690211010067,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690211010067,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690211010068,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690211010068,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690211010069,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690211010069,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690211010070,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690211010071,"pid":17000,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690211010071,"pid":17000,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690211010080,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690211010080,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690211010080,"pid":17000,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690211010083,"pid":17000,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690211010084,"pid":17000,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690211010084,"pid":17000,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690211010084,"pid":17000,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690211010094,"pid":17000,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690211010094,"pid":17000,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690211010094,"pid":17000,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690211010095,"pid":17000,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690211010095,"pid":17000,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690211010095,"pid":17000,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690211010117,"pid":17000,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690211010504,"pid":17000,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690211010504,"pid":17000,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690211010504,"pid":17000,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690211010585,"pid":17000,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690211011341,"pid":17000,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690211011354,"pid":17000,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690211012700,"pid":17000,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690211012700,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690211012701,"pid":17000,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690211012701,"pid":17000,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690211012810,"pid":17000,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690211013214,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"8ls56e9v6n2uff6q\",\"op\":\"ready\"}"}
+{"level":30,"time":1690211013214,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690211013214,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 513ms"}
+{"level":20,"time":1690211013215,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":25,\"playingPlayers\":6,\"uptime\":776530725,\"memory\":{\"free\":111876136,\"used\":433383384,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.02},\"op\":\"stats\"}"}
+{"level":30,"time":1690211014079,"pid":17000,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690211073212,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":7,\"uptime\":776590722,\"memory\":{\"free\":326267552,\"used\":218991968,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.040983606557377046},\"op\":\"stats\"}"}
+{"level":20,"time":1690211133214,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":7,\"uptime\":776650721,\"memory\":{\"free\":165602712,\"used\":379656808,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.020833333333333332},\"op\":\"stats\"}"}
+{"level":20,"time":1690211193221,"pid":17000,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":7,\"uptime\":776710722,\"memory\":{\"free\":350305312,\"used\":194954208,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.06147540983606557},\"op\":\"stats\"}"}
+{"level":30,"time":1690211226371,"pid":17740,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690211226402,"pid":17740,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690211226747,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690211226748,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690211226749,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690211226750,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690211226750,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690211226756,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690211226756,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690211226757,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690211226758,"pid":17740,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690211226758,"pid":17740,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690211226764,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690211226765,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690211226765,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690211226766,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690211226766,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690211226767,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690211226767,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690211226768,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690211226768,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690211226768,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690211226769,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690211226770,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690211226771,"pid":17740,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690211226771,"pid":17740,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690211226780,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690211226780,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690211226781,"pid":17740,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690211226784,"pid":17740,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690211226784,"pid":17740,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690211226785,"pid":17740,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690211226785,"pid":17740,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690211226795,"pid":17740,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690211226795,"pid":17740,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690211226796,"pid":17740,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690211226796,"pid":17740,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690211226796,"pid":17740,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690211226796,"pid":17740,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690211226819,"pid":17740,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690211227196,"pid":17740,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690211227196,"pid":17740,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690211227196,"pid":17740,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690211227277,"pid":17740,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690211228013,"pid":17740,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690211228025,"pid":17740,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690211229377,"pid":17740,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690211229377,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690211229378,"pid":17740,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690211229378,"pid":17740,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690211229418,"pid":17740,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1690211229890,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690211229890,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 512ms"}
+{"level":20,"time":1690211229897,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"omht61ihrrtx8odc\",\"op\":\"ready\"}"}
+{"level":20,"time":1690211229897,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":8,\"uptime\":776747406,\"memory\":{\"free\":242076280,\"used\":303183240,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.578125,\"lavalinkLoad\":0.047619047619047616},\"op\":\"stats\"}"}
+{"level":30,"time":1690211230231,"pid":17740,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690211289893,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":10,\"uptime\":776807397,\"memory\":{\"free\":105167672,\"used\":440091848,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.31092436974789917,\"lavalinkLoad\":0.03731343283582089},\"op\":\"stats\"}"}
+{"level":20,"time":1690211349893,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":10,\"uptime\":776867397,\"memory\":{\"free\":306037424,\"used\":239222096,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.36363636363636365,\"lavalinkLoad\":0.03731343283582089},\"op\":\"stats\"}"}
+{"level":20,"time":1690211409895,"pid":17740,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":9,\"uptime\":776927397,\"memory\":{\"free\":150634752,\"used\":394624768,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.6341463414634146,\"lavalinkLoad\":0.04975124378109453},\"op\":\"stats\"}"}
+{"level":30,"time":1690211421530,"pid":15020,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690211421558,"pid":15020,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690211421886,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690211421887,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690211421887,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690211421888,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690211421889,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690211421894,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690211421895,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690211421895,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690211421896,"pid":15020,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690211421897,"pid":15020,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690211421902,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690211421903,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690211421903,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690211421904,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690211421904,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690211421904,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690211421905,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690211421905,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690211421905,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690211421906,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690211421907,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690211421907,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690211421908,"pid":15020,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690211421909,"pid":15020,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690211421919,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690211421919,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690211421920,"pid":15020,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690211421921,"pid":15020,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690211421921,"pid":15020,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690211421921,"pid":15020,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690211421922,"pid":15020,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690211421932,"pid":15020,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690211421932,"pid":15020,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690211421932,"pid":15020,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690211421933,"pid":15020,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690211421933,"pid":15020,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690211421933,"pid":15020,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690211421954,"pid":15020,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690211422381,"pid":15020,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690211422381,"pid":15020,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690211422381,"pid":15020,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690211422461,"pid":15020,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690211422894,"pid":15020,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690211422906,"pid":15020,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690211424227,"pid":15020,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690211424227,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690211424228,"pid":15020,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690211424228,"pid":15020,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690211424256,"pid":15020,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690211424623,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"gf1mpll5ebwmdk5a\",\"op\":\"ready\"}"}
+{"level":30,"time":1690211424623,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690211424623,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 395ms"}
+{"level":20,"time":1690211424623,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":9,\"uptime\":776942121,\"memory\":{\"free\":113959928,\"used\":431299592,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.8606060606060606,\"lavalinkLoad\":0.050505050505050504},\"op\":\"stats\"}"}
+{"level":30,"time":1690211425151,"pid":15020,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690211484621,"pid":15020,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":10,\"uptime\":777002120,\"memory\":{\"free\":277514552,\"used\":267744968,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.3684210526315789,\"lavalinkLoad\":0.05067567567567568},\"op\":\"stats\"}"}
+{"level":30,"time":1690211515792,"pid":2828,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690211515821,"pid":2828,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690211516156,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690211516156,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690211516157,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690211516158,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690211516159,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690211516164,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690211516165,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690211516165,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690211516166,"pid":2828,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690211516167,"pid":2828,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690211516173,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690211516173,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690211516174,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690211516175,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690211516175,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690211516175,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690211516176,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690211516176,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690211516176,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690211516177,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690211516178,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690211516178,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690211516179,"pid":2828,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690211516180,"pid":2828,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690211516188,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690211516189,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690211516189,"pid":2828,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690211516190,"pid":2828,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690211516193,"pid":2828,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690211516193,"pid":2828,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690211516194,"pid":2828,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690211516209,"pid":2828,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690211516209,"pid":2828,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690211516210,"pid":2828,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690211516210,"pid":2828,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690211516211,"pid":2828,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690211516211,"pid":2828,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690211516237,"pid":2828,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690211516628,"pid":2828,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690211516628,"pid":2828,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690211516628,"pid":2828,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690211516707,"pid":2828,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690211517196,"pid":2828,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690211517208,"pid":2828,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690211518412,"pid":2828,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690211518412,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690211518413,"pid":2828,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690211518413,"pid":2828,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690211518440,"pid":2828,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690211518900,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"oclncnrl9sp0bg4u\",\"op\":\"ready\"}"}
+{"level":20,"time":1690211518900,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":10,\"uptime\":777036393,\"memory\":{\"free\":240957712,\"used\":304301808,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.14705882352941177},\"op\":\"stats\"}"}
+{"level":30,"time":1690211518900,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690211518900,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 487ms"}
+{"level":30,"time":1690211519341,"pid":2828,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690211578898,"pid":2828,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":11,\"uptime\":777096395,\"memory\":{\"free\":67478776,\"used\":477780744,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.13157894736842105},\"op\":\"stats\"}"}
+{"level":30,"time":1690211625507,"pid":18980,"hostname":"Nezuko","msg":"Validating config file and environment variables"}
+{"level":30,"time":1690211625543,"pid":18980,"hostname":"Nezuko","msg":"Loading commands..."}
+{"level":20,"time":1690211625887,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1690211625888,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1690211625888,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1690211625890,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1690211625890,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1690211625897,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1690211625897,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1690211625898,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1690211625899,"pid":18980,"hostname":"Nezuko","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1690211625899,"pid":18980,"hostname":"Nezuko","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1690211625905,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1690211625906,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1690211625906,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1690211625907,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1690211625907,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1690211625907,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1690211625908,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1690211625908,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1690211625908,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1690211625909,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1690211625909,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1690211625910,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1690211625911,"pid":18980,"hostname":"Nezuko","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1690211625912,"pid":18980,"hostname":"Nezuko","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1690211625924,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1690211625924,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1690211625924,"pid":18980,"hostname":"Nezuko","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1690211625925,"pid":18980,"hostname":"Nezuko","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1690211625926,"pid":18980,"hostname":"Nezuko","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1690211625926,"pid":18980,"hostname":"Nezuko","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1690211625927,"pid":18980,"hostname":"Nezuko","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1690211625937,"pid":18980,"hostname":"Nezuko","msg":"Loaded 101 commands"}
+{"level":30,"time":1690211625937,"pid":18980,"hostname":"Nezuko","msg":"Loaded 82 slash commands"}
+{"level":30,"time":1690211625937,"pid":18980,"hostname":"Nezuko","msg":"Loading contexts..."}
+{"level":30,"time":1690211625937,"pid":18980,"hostname":"Nezuko","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1690211625937,"pid":18980,"hostname":"Nezuko","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1690211625938,"pid":18980,"hostname":"Nezuko","msg":"Loading events..."}
+{"level":30,"time":1690211625959,"pid":18980,"hostname":"Nezuko","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":40,"time":1690211626373,"pid":18980,"hostname":"Nezuko","msg":"VersionCheck: 5.4.0 update is available"}
+{"level":40,"time":1690211626373,"pid":18980,"hostname":"Nezuko","msg":"download: https://github.com/Hai-Lucy/Lucy/releases/latest"}
+{"level":30,"time":1690211626373,"pid":18980,"hostname":"Nezuko","msg":"Launching dashboard"}
+{"level":30,"time":1690211626465,"pid":18980,"hostname":"Nezuko","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1690211626875,"pid":18980,"hostname":"Nezuko","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1690211626887,"pid":18980,"hostname":"Nezuko","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1690211628058,"pid":18980,"hostname":"Nezuko","msg":"Logged in as L`RMN#1406! (928711702596423740)"}
+{"level":20,"time":1690211628059,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1690211628059,"pid":18980,"hostname":"Nezuko","msg":"Music Manager initialized"}
+{"level":30,"time":1690211628059,"pid":18980,"hostname":"Nezuko","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1690211628088,"pid":18980,"hostname":"Nezuko","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1690211628476,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"wbopvsbu6w5ir5x3\",\"op\":\"ready\"}"}
+{"level":20,"time":1690211628476,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":10,\"uptime\":777145970,\"memory\":{\"free\":299177864,\"used\":246081656,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.1388888888888889},\"op\":\"stats\"}"}
+{"level":30,"time":1690211628476,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" connected"}
+{"level":20,"time":1690211628476,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: connected in 417ms"}
+{"level":30,"time":1690211630475,"pid":18980,"hostname":"Nezuko","msg":"Successfully registered interactions"}
+{"level":20,"time":1690211688477,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":9,\"uptime\":777205970,\"memory\":{\"free\":155532664,\"used\":389726856,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.1388888888888889},\"op\":\"stats\"}"}
+{"level":20,"time":1690211748478,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":10,\"uptime\":777265970,\"memory\":{\"free\":328062456,\"used\":217197064,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1690211808483,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":30,\"playingPlayers\":13,\"uptime\":777325972,\"memory\":{\"free\":116456720,\"used\":428802800,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.13157894736842105},\"op\":\"stats\"}"}
+{"level":20,"time":1690211868481,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":29,\"playingPlayers\":12,\"uptime\":777385970,\"memory\":{\"free\":305030480,\"used\":240229040,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.14705882352941177},\"op\":\"stats\"}"}
+{"level":20,"time":1690211928484,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":10,\"uptime\":777445970,\"memory\":{\"free\":136878152,\"used\":408381368,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1690211988484,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":10,\"uptime\":777505970,\"memory\":{\"free\":304278752,\"used\":240980768,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1690212048486,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":26,\"playingPlayers\":10,\"uptime\":777565970,\"memory\":{\"free\":267985136,\"used\":277274384,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1690212108489,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":27,\"playingPlayers\":10,\"uptime\":777625970,\"memory\":{\"free\":97659392,\"used\":447600128,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
+{"level":20,"time":1690212168492,"pid":18980,"hostname":"Nezuko","msg":"Node \"Main\" debug: connection: lavaclient <<< stats: {\"players\":28,\"playingPlayers\":11,\"uptime\":777685970,\"memory\":{\"free\":285112944,\"used\":260146576,\"allocated\":545259520,\"reservable\":2147483648},\"cpu\":{\"cores\":4,\"systemLoad\":0.0,\"lavalinkLoad\":0.0},\"op\":\"stats\"}"}
