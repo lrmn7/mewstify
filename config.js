@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://lrmnbot.hop.sh", // base url
-    failureURL: "https://lrmnbot.hop.sh", // failure redirect url
+    baseURL: "https://lrmn-bot.hop.sh", // base url
+    failureURL: "https://lrmn-bot.hop.sh", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
