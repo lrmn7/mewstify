@@ -1,9 +1,9 @@
 version: "4"
 
 services:
-  discordbot:
-    image: lrmn/discordbot:latest
-    container_name: discordbot
+  lrmn-bot:
+    image: lrmn/lrmn-bot:latest
+    container_name: lrmn-bot
     restart: unless-stopped
     networks:
       - discord-js-net

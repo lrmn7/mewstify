@@ -33,9 +33,8 @@ ENV LAVALINK_PORT=
 ENV LAVALINK_PASSWORD=
 ENV LAVALINK_ID=
 ENV LAVALINK_SECURE=
-
-# Expose port 8080 for dashboard
-EXPOSE 8080
+ENV BOT_PREFIX=
+ENV DASHBOARD_PORT=
 
 # Define the command to run your Node.js application
 CMD [ "node", "bot.js" ]

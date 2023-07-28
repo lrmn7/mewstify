@@ -1,6 +1,6 @@
 {
-  "name": "discordbot",
-  "version": "latest",
+  "name": "lrmn",
+  "version": "5.0.1",
   "description": "An open-source, multipurpose discord bot built using discord-js",
   "main": "bot.js",
   "author": "lrmn",
@@ -12,15 +12,15 @@
     "dev": "nodemon .",
     "start": "node .",
     "format": "prettier --write src",
-    "docker:build": "docker build -t lrmn/discordbot:latest ."
+    "docker:build": "docker build -t lrmn/lrmn-bot:latest ."
   },
-  "homepage": "https://github.com/lrmn7/discordbot#readme",
+  "homepage": "https://github.com/lrmn7/lrmn-bot#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lrmn7/lrmn.git"
+    "url": "git+https://github.com/lrmn7/lrmn-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/lrmn7/lrmn/issues"
+    "url": "https://github.com/lrmn7/lrmn-bot/issues"
   },
   "dependencies": {
     "@lavaclient/queue": "^2.1.1",
