@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lrmn7"><img src="https://cdn.discordapp.com/attachments/1098969636306960465/1132727644337750156/android-chrome-192x192.png" height="200" alt="LRMN"></a>
+  <a href="https://github.com/lrmn7"><img src="https://cdn.discordapp.com/attachments/1098969636306960465/1134465194043650078/lrmncircle.png" height="200" alt="LRMN"></a>
   <br>
 Hi, i'm L RMN.
   <br>
