@@ -29,8 +29,8 @@ Hi, i'm L RMN.
 - 🌌 Dashboard: [Dashboard](https://lrmn-bot.hop.sh/)
 - 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=8&scope=bot%20applications.commands)
 - 🤝 Support Server: [Join Here](https://discord.gg/WFfjrQxnfH)
-- 📂 Documentation URL: [Visit Here](https://lucy-docs.is-a.fun)
-- 🐳 Docker Image: [Hub](https://hub.docker.com/r/lrmn/discordbot:latest)
+- 📂 Documentation URL: [Visit Here](https://mkdocs-lucy.vercel.app)
+- 🐳 Docker Image: [Hub](https://hub.docker.com/r/lrmn/lrmn-bot:latest)
 - 🚀 Hoosted: [Hop.io](https://hop.io)
 
 ## 📦 Prerequisites

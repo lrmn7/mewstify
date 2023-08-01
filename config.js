@@ -5,7 +5,7 @@ module.exports = {
   SUPPORT_SERVER: "http://lrmn.is-a.dev/server-discord/", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: process.env.BOT_PREFIX || "+", // Default prefix for the bot, use the env variable or fallback to "+"
+    DEFAULT_PREFIX: process.env.BOT_PREFIX || "!", // Default prefix for the bot, use the env variable or fallback to "+"
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -108,8 +108,8 @@ module.exports = {
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
-    TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "your dreams 💦", // Your bot status message
+    TYPE: "PLAYING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
+    MESSAGE: "With your 💗", // Your bot status message
   },
 
   STATS: {
