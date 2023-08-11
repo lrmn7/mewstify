@@ -5,7 +5,7 @@ module.exports = {
   SUPPORT_SERVER: "http://lrmn.is-a.dev/server-discord/", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: process.env.BOT_PREFIX || "!", // Default prefix for the bot, use the env variable or fallback to "+"
+    DEFAULT_PREFIX: process.env.BOT_PREFIX || "drs/", // Default prefix for the bot, use the env variable or fallback to "+"
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -54,7 +54,7 @@ module.exports = {
 
   MUSIC: {
     ENABLED: true,
-    IDLE_TIME: 0, // Time in seconds before the bot disconnects from an idle voice channel
+    IDLE_TIME: 10000, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
     // Add any number of lavalink nodes here
@@ -108,8 +108,8 @@ module.exports = {
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
-    TYPE: "PLAYING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "With your 💗", // Your bot status message
+    TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
+    MESSAGE: "your dreams 💦", // Your bot status message
   },
 
   STATS: {

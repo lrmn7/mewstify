@@ -76,7 +76,12 @@ module.exports = (client) => {
 
   lavaclient.on("nodeQueueFinish", async (_node, queue) => {
     queue.data.channel.safeSend("Queue has ended.");
-    await client.musicManager.destroyPlayer(queue.player.guildId).then(queue.player.disconnect());
+  
+    // Here, instead of immediately disconnecting the player, you can add a delay
+    // to keep the bot in the voice channel for a certain amount of time.
+    setTimeout(async () => {
+      await client.musicManager.destroyPlayer(queue.player.guildId).then(queue.player.disconnect());
+    }, 300000); // 300000 milliseconds = 5 minutes
   });
 
   return lavaclient;

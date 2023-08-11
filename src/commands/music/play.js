@@ -144,12 +144,13 @@ async function play({ member, guild, channel }, query) {
   if (tracks.length === 1) {
     const track = tracks[0];
     if (!player?.playing && !player?.paused && !player?.queue.tracks.length) {
-      embed.setAuthor({ name: "Added Track to queue" });
+      embed.setAuthor({ name: "Musik adalah refleksi perasaan kita, baik yang paling indah maupun yang paling mendalam ~ L RMN" });
     } else {
       const fields = [];
       embed
-        .setAuthor({ name: "Added Track to queue" })
+        .setAuthor({ name: "Musik adalah refleksi perasaan kita, baik yang paling indah maupun yang paling mendalam ~ L RMN" })
         .setDescription(`[${track.info.title}](${track.info.uri})`)
+        .setImage("https://cdn.discordapp.com/attachments/1098969636306960465/1139478813068234844/lrmnmusic.gif")  // Ganti dengan URL gambar atau GIF yang Anda inginkan
         .setFooter({ text: `Requested By: ${member.user.username}` });
 
       fields.push({
@@ -171,6 +172,7 @@ async function play({ member, guild, channel }, query) {
     embed
       .setAuthor({ name: "Added Playlist to queue" })
       .setDescription(description)
+      .setImage("https://cdn.discordapp.com/attachments/1098969636306960465/1139478813068234844/lrmnmusic.gif")  // Ganti dengan URL gambar atau GIF yang Anda inginkan
       .addFields(
         {
           name: "Enqueued",
@@ -205,6 +207,9 @@ async function play({ member, guild, channel }, query) {
   if (!started) {
     await player.queue.start();
   }
-
+  
+  // Pastikan untuk mengganti URL di bawah ini dengan URL gambar atau GIF Anda
+  embed.setImage("https://cdn.discordapp.com/attachments/1098969636306960465/1139478813068234844/lrmnmusic.gif");
+  
   return { embeds: [embed] };
-}
+  }

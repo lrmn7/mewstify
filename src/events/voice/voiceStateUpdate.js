@@ -24,7 +24,7 @@ module.exports = async (client, oldState, newState) => {
           const player = client.musicManager.getPlayer(guild.id);
           if (player) client.musicManager.destroyPlayer(guild.id).then(player.disconnect()); // destroy the player
         }
-      }, client.config.MUSIC.IDLE_TIME * 1000);
+      }, client.config.MUSIC.IDLE_TIME * 10000);
     }
   }
 };

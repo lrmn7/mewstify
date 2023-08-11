@@ -13,7 +13,7 @@ const {
 const { getCommandUsage, getSlashUsage } = require("@handlers/command");
 
 const CMDS_PER_PAGE = 5;
-const IDLE_TIMEOUT = 30;
+const IDLE_TIMEOUT = 300;
 
 /**
  * @type {import("@structures/Command")}
@@ -139,7 +139,7 @@ async function getHelpMenu({ client, guild }) {
 const waiter = (msg, userId, prefix) => {
   const collector = msg.channel.createMessageComponentCollector({
     filter: (reactor) => reactor.user.id === userId && msg.id === reactor.message.id,
-    idle: IDLE_TIMEOUT * 1000,
+    idle: IDLE_TIMEOUT * 10000,
     dispose: true,
     time: 5 * 60 * 1000,
   });

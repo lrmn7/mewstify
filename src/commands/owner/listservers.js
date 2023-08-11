@@ -1,6 +1,6 @@
 const { EmbedBuilder, ButtonBuilder, ActionRowBuilder, ButtonStyle, ComponentType } = require("discord.js");
 
-const IDLE_TIMEOUT = 30; // in seconds
+const IDLE_TIMEOUT = 300; // in seconds
 const MAX_PER_PAGE = 10; // max number of embed fields per page
 
 /**
@@ -94,7 +94,7 @@ module.exports = {
     // Listeners
     const collector = channel.createMessageComponentCollector({
       filter: (reaction) => reaction.user.id === member.id && reaction.message.id === sentMsg.id,
-      idle: IDLE_TIMEOUT * 1000,
+      idle: IDLE_TIMEOUT * 10000,
       dispose: true,
       componentType: ComponentType.Button,
     });

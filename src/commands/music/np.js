@@ -42,8 +42,9 @@ function nowPlaying({ client, guildId }) {
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
-    .setAuthor({ name: "Now playing" })
+    .setAuthor({ name: "🔴 LIVE Now playing" })
     .setDescription(`[${track.title}](${track.uri})`)
+    .setImage("https://cdn.discordapp.com/attachments/1098969636306960465/1139478813068234844/lrmnmusic.gif")  // Ganti dengan URL gambar atau GIF yang Anda inginkan
     .addFields(
       {
         name: "Song Duration",
@@ -69,3 +70,4 @@ function nowPlaying({ client, guildId }) {
 
   return { embeds: [embed] };
 }
+
