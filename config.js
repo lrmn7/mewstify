@@ -5,7 +5,7 @@ module.exports = {
   SUPPORT_SERVER: "http://lrmn.is-a.dev/server-discord/", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: process.env.BOT_PREFIX || "drs/", // Default prefix for the bot, use the env variable or fallback to "+"
+    DEFAULT_PREFIX: process.env.BOT_PREFIX || "r/", // Default prefix for the bot, use the env variable or fallback to "+"
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -56,7 +56,7 @@ module.exports = {
     ENABLED: true,
     IDLE_TIME: 10000, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
-    DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
+    DEFAULT_SOURCE: process.env.DEFAULT_SOURCE || "YT", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
     // Add any number of lavalink nodes here
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [

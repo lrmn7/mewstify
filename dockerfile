@@ -35,6 +35,7 @@ ENV LAVALINK_ID=
 ENV LAVALINK_SECURE=
 ENV BOT_PREFIX=
 ENV DASHBOARD_PORT=
+ENV DEFAULT_SOURCE=
 
 # Define the command to run your Node.js application
 CMD [ "node", "bot.js" ]
