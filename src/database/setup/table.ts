@@ -4,7 +4,6 @@ import { Handler } from "../handler.js";
 // Schema
 import { AutoReconnect } from "../schema/AutoReconnect.js";
 import { Playlist } from "../schema/Playlist.js";
-import { Code } from "../schema/Code.js";
 import { Control } from "../schema/Control.js";
 import { Setup } from "../schema/Setup.js";
 import { Language } from "../schema/Language.js";
@@ -36,7 +35,6 @@ export class TableSetup {
     this.client.db = {
       autoreconnect: await baseDB.table<AutoReconnect>("autoreconnect"),
       playlist: await baseDB.table<Playlist>("playlist"),
-      code: await baseDB.table<Code>("code"),
       control: await baseDB.table<Control>("control"),
       setup: await baseDB.table<Setup>("setup"),
       language: await baseDB.table<Language>("language"),

@@ -133,5 +133,4 @@ export interface ServerSupport {
   SUGGESTION_CHANNEL_ID: string;
   BUG_REPORT_CHANNEL_ID: string;
   BOTLOGS_JOINLEFT: string;
-  REDEEM_LOGS: string;
 }

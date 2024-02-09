@@ -1,19 +1,15 @@
-# Mewwme config file via .yaml
-# Version 6.0.5
-# You can use ${} to pass an enviroment varible from .env file
-# Eg:
-# something: ${DATA}
+# Mewwme Version 7.0.0
 
 bot:
   TOKEN: ${BOT_TOKEN}
-  EMBED_COLOR: "#f4e0c7"
+  EMBED_COLOR: "#f4e0c7" # Global color for embeds
   OWNER_IDS: ["742457036914294855", "176144329046360064"]
   LANGUAGE: "en" # You can set it to en or you can customize it with your language
   LIMIT_TRACK: 100 # The number of tracks you want to limit
   LIMIT_PLAYLIST: 50 # The number of playlist you want to limit
   DELETE_MSG_TIMEOUT: 5000 # Set to 0 if you don't want to delete message
   DEBUG_MODE: false
-  # genius api key from https://genius.com/developers
+  # genius api key from https://genius.com/developers  (lyrics commands)
   GENIUS_APIKEY: "oo9GZ7UBa5Z4wb_zu8i2-K-RpxUHK1iURy61q8ETRiYTs1z6HMc3S9NN38Js68hX"
   # statistics for bot with top.gg
   TOPGG_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwOTAxMjAxMzYxNjc1Mzg3NDgiLCJib3QiOnRydWUsImlhdCI6MTY5NzM4MzEzNX0.PI3t4wSbBGQ6nf3tOjwWD8Tx2stAU3u83_I48tILpu0"
@@ -55,7 +51,7 @@ lavalink:
     id: fdf0e2d1da9e40169b5918f73addae04
     secret: db0fa34ff766490e87e9996c0ae844e0
 
-  DEFAULT: ["feby putri", "mahalini", "biru baru"]
+  DEFAULT: ["feby putri", "mahalini", "biru baru"] # suggestions song /commands
 
   NP_REALTIME: false #beta (Enable this if you want to use realtime duation in nowplaying command)
 
@@ -136,6 +132,4 @@ ServerSupport:
   BUG_REPORT_CHANNEL_ID: "1198207171075252305"
 # set webhook url settings for bot guild add/guild remove logs
   BOTLOGS_JOINLEFT: "https://canary.discord.com/api/webhooks/1205083115551330354/s0LkE9opL0K7pHsKn4v63qdZ9aKUdpLxWdRP9UvN4TKhpLAuHjDlNQMf5fHZIm_lD1jv"
-# set webhook url settings for redeem logs
-  REDEEM_LOGS: "https://canary.discord.com/api/webhooks/1205083115551330354/s0LkE9opL0K7pHsKn4v63qdZ9aKUdpLxWdRP9UvN4TKhpLAuHjDlNQMf5fHZIm_lD1jv"
 

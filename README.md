@@ -32,6 +32,7 @@
 - Shard System
 - Auto Reconnect
 - Auto Fix Lavalink From [lavalink.darrennathanael.com](https://lavalink.darrennathanael.com/NoSSL/lavalink-without-ssl)
+- New Lavalink Supported V4
 
 ## 📜 Command Categories
 - **ADMIN**
@@ -146,6 +147,13 @@
 4. Optionally, if you have a production-ready start command:
    - Set `STARTUP COMMAND 2` to `npm run start:prod`.
 5. **Enjoy Listening To Music With Mewwme!**
+
+```yaml
+# Mewwme config file via .yaml
+# You can use ${} to pass an enviroment varible from .env file
+# Eg:
+# something: ${TOKEN}
+```
 
 Make sure to follow these steps carefully to set up your server for running the Mewwme music bot. If you encounter any issues, join [server discord](https://discord.gg/6EXgrmtkPX)
 
