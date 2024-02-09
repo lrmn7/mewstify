@@ -35,20 +35,17 @@
 - New Lavalink Supported V4
 
 ## 📜 Command Categories
-- **ADMIN**
-  - announcement, restart, update
-- **INFO**
-  - about, avatar, help, info, lavalink, invite, ping, privacy, profile, report, status, suggestions, termsofservice
-- **MUSIC**
-  - autoplay, clear, mp3, forward, join, lofi, loopall, loop, lyrics, music, nowplaying, pause, play, previous, queue, radio, remove, remove-duplicate, replay, resume, rewind, seek, shuffle, skip, stop, volume
-- **PLAYLIST** (11 commands)
-  - pl-add, pl-all, pl-create, pl-delete, pl-detail, pl-editor, pl-play, pl-info, playlist, pl-remove, pl-save-queue
-- **FILTER**
-  - 3d, bass, china, chipmunk, bassboost, darthvader, daycore, doubletime, earrape, equalizer, filter, karaoke, nightcore, pitch, pop, rate, reset, slowmotion, soft, speed, superbass, television, treblebass, tremolo, vaporwave, vibrate, vibrato
-- **SETTINGS**
-  - 24/7, setting-control, language, prefix, setup, status-channel
-- **UTILS**
-  - avatar, bigemoji, emoji, github, guildinfo, memberinfo
+
+| Category   | Commands                                                                                           |
+|------------|----------------------------------------------------------------------------------------------------|
+| ADMIN      | announcement, restart, update                                                                      |
+| INFO       | about, avatar, help, info, lavalink, invite, ping, privacy, profile, report, status, suggestions, termsofservice |
+| MUSIC      | autoplay, clear, mp3, forward, join, lofi, loopall, loop, lyrics, music, nowplaying, pause, play, previous, queue, radio, remove, remove-duplicate, replay, resume, rewind, seek, shuffle, skip, stop, volume |
+| PLAYLIST   | pl-add, pl-all, pl-create, pl-delete, pl-detail, pl-editor, pl-play, pl-info, playlist, pl-remove, pl-save-queue |
+| FILTER     | 3d, bass, china, chipmunk, bassboost, darthvader, daycore, doubletime, earrape, equalizer, filter, karaoke, nightcore, pitch, pop, rate, reset, slowmotion, soft, speed, superbass, television, treblebass, tremolo, vaporwave, vibrate, vibrato |
+| SETTINGS   | 24/7, setting-control, language, prefix, setup, status-channel                                   |
+| UTILS      | avatar, bigemoji, emoji, github, guildinfo, memberinfo                                            |
+
 
 
 ## 🚀 Supported Sources
