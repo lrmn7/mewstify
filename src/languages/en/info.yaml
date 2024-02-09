@@ -1,14 +1,14 @@
 #about commands
 dev_foot: "Thank you for choosing Mewwme's as your personal music bot!"
 
-inv_title: "**Thanks for Inviting %{username}**"
+inv_title: "*Thanks for Inviting %{username}*"
 inv_desc: "You can invite me by clicking the button below.\nAny bugs or outages? Join the **[support server](%{support})**"
 
-ping_title: "**Ping of **"
-ping_desc: "**My Ping is %{ping}ms**"
+ping_title: "**Ping of**"
+ping_desc: "My Ping is **%{ping}ms**"
 
 # Footer
-footer: "Miko Radio Team"
+footer: "MADE BY TRAGIC IN BOGOR"
 
 # Announcement to all server bot
 announcement_image: "*Do you want to add an image to this announcement? Reply with* **`yes`** /**`no`**"
@@ -44,36 +44,6 @@ report_img_invalid: "**Invalid image URL provided or no URL was given. Please pr
 
 # disclaimer
 disclaimer_desc: "**By using this bot, you automatically agree that the developer of this bot is not responsible for any damage done to non-NSFW channels or copyright rights.\nThe developer has no effect on what music is played.**"
-
-# get premium
-getpremium_desc: "**Currently, all features available on this music bot are provided for free without requiring payment or voting.\nWe are committed to delivering an optimal experience for users without the limitations of a premium subscription**"
-
-custombot_desc: |
-  <:botme:1204848589604528129> **Custom bot perks:**
-  <:blank:1173965100311379978><:24h:1204851937325883452> **Bot Online 24/7.**
-  <:blank:1173965100311379978><:meava:1204848463083474954> **Custom bot avatar.**
-  <:blank:1173965100311379978><:dot:1204852398913232936> **Custom bot name.**
-  <:blank:1173965100311379978><:mepencil:1204848507220004944> **Fully customizable bot status and activity.**
-  <:blank:1173965100311379978><:magic:1204853015585226855> **Custom own prefix bot.**
-  <:blank:1173965100311379978><:melock:1204850955363811420> **Custom own public or private.**
-  <:blank:1173965100311379978><:emojime:1204851242271252492> **Custom emojis.**
-  <:blank:1173965100311379978><:radio:1204848974935363624> **Custom radio FM stations.**
-  <:blank:1173965100311379978><:meall:1193100157928099931> **Unlocking all features, (prefix & slash commands).**
-
-  <:like:1204848571090866246> **Base premium perks:**
-  <:blank:1173965100311379978><:music:1193101413362966559> **24/7 Music Playback.**
-  <:blank:1173965100311379978><:volup:1196105452547739788> **Volume controls.**
-  <:blank:1173965100311379978><:home:1193100237133336670> **Create welcomer images for your server.**
-  <:blank:1173965100311379978><:playlistmusic:1193113465632587789> **Unlimited music playlists.**
-  <:blank:1173965100311379978><:switch:1196007160279203841> **Added 25+ filter menu.**
-  <:blank:1173965100311379978><:singing:1196006929932234782> **Higher quality audio.**
-  <:blank:1173965100311379978><:meweb:1193107047793840220> **HTTP stream stations.**
-  <:blank:1173965100311379978><:slash:1204854174907637780> **Lower commands cooldown.**
-  <:blank:1173965100311379978><:sparkle:1204848989992648704> **Early access to Mewwme's new features.**
-  <:blank:1173965100311379978><:mepriority:1204848524517187615> **Priority support.**
-
-  <:info:1193100286881964104> **How to get my own custom bot?**
-  <:blank:1173965100311379978><:sparkle:1204848989992648704> **By becoming a member on our [Patreon page](%{patreon}).**
 
 privacy: |
   **User Agreement**
