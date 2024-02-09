@@ -8,6 +8,7 @@ import {
 import axios from "axios";
 import { Manager } from "../../../manager.js";
 import { Accessableby, SlashCommand } from "../../../@types/Command.js";
+import Genius from "genius-lyrics";
 
 // Main code
 export default class implements SlashCommand {
@@ -33,6 +34,9 @@ export default class implements SlashCommand {
     const value = (
       interaction.options as CommandInteractionOptionResolver
     ).getString("input");
+
+    // Replace this with your actual Genius API access token
+    const genius = new Genius.Client(client.config.bot.GENIUS_APIKEY);
 
     const msg = await interaction.editReply({
       embeds: [
@@ -71,19 +75,14 @@ export default class implements SlashCommand {
         ],
       });
 
-    let song = value;
-    let CurrentSong = player.queue.current;
-    if (!song && CurrentSong)
-      song = CurrentSong.title + " " + CurrentSong.author;
+    let song = value || ""; // Initialize with an empty string if no song is provided
 
-    let lyrics_data = null;
-
-    const fetch_lyrics = await axios.get(
-      `https://api.popcat.xyz/lyrics?song=${song!.replace(/ /g, "+")}`
-    );
-    try {
-      lyrics_data = fetch_lyrics.data.lyrics;
-      if (!lyrics_data)
+    // If no song title is provided, attempt to use the current song playing
+    if (!song) {
+      const CurrentSong = player.queue.current;
+      if (CurrentSong) {
+        song = `${CurrentSong.title} ${CurrentSong.author}`;
+      } else {
         return msg.edit({
           embeds: [
             new EmbedBuilder()
@@ -93,8 +92,42 @@ export default class implements SlashCommand {
               .setColor(client.color),
           ],
         });
+      }
+    }
+
+    try {
+      const songs = await genius.songs.search(song);
+      if (songs.length === 0 || !songs[0].lyrics)
+        return msg.edit({
+          embeds: [
+            new EmbedBuilder()
+              .setDescription(
+                `${client.i18n.get(language, "music", "lyrics_notfound")}`
+              )
+              .setColor(client.color),
+          ],
+        });
+      const lyrics = await songs[0].lyrics();
+      let lyricsEmbed = new EmbedBuilder()
+        .setColor(client.color)
+        .setTitle(
+          `${client.i18n.get(language, "music", "lyrics_title", {
+            song: String(song),
+          })}`
+        )
+        .setDescription(`${lyrics}`)
+        .setFooter({ text: `Requested by ${interaction.user.username}` })
+        .setTimestamp();
+
+      if (lyrics.length > 4048) {
+        lyricsEmbed.setDescription(
+          `${client.i18n.get(language, "music", "lyrics_toolong")}`
+        );
+      }
+
+      msg.edit({ content: " ", embeds: [lyricsEmbed] });
     } catch (err) {
-      console.log(err);
+      client.logger.log({ level: "error", message: String(err) });
       return msg.edit({
         embeds: [
           new EmbedBuilder()
@@ -105,23 +138,5 @@ export default class implements SlashCommand {
         ],
       });
     }
-    let lyricsEmbed = new EmbedBuilder()
-      .setColor(client.color)
-      .setTitle(
-        `${client.i18n.get(language, "music", "lyrics_title", {
-          song: String(song),
-        })}`
-      )
-      .setDescription(`${lyrics_data}`)
-      .setFooter({ text: `Requested by ${interaction.user.username}` })
-      .setTimestamp();
-
-    if (lyrics_data.length > 4048) {
-      lyricsEmbed.setDescription(
-        `${client.i18n.get(language, "music", "lyrics_toolong")}`
-      );
-    }
-
-    msg.edit({ content: " ", embeds: [lyricsEmbed] });
   }
 }

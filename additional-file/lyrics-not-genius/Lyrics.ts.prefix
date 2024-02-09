@@ -20,7 +20,7 @@ export default class implements PrefixCommand {
     language: string,
     prefix: string
   ) {
-    const value = args[0];
+    const value = args.join(" ");
 
     const msg = await message.reply({
       embeds: [
