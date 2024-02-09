@@ -8,3 +8,4 @@ npm-debug.log
 .mewwme/
 additional-file
 **/additional-file/
+mewwme.database.json
