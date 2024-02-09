@@ -148,6 +148,7 @@
    - Set `STARTUP COMMAND 2` to `npm run start:prod`.
 5. **Enjoy Listening To Music With Mewwme!**
 
+## Setting yaml with .env
 ```yaml
 # Mewwme config file via .yaml
 # You can use ${} to pass an enviroment varible from .env file
