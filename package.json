@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mewwme/mewwme.git"
+    "url": "git+https://github.com/lrmn7/mewwme.git"
   },
   "keywords": [
     "discordbot"
@@ -32,7 +32,7 @@
   "author": "lrmn",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/mewwme/mewwme/issues"
+    "url": "https://github.com/lrmn7/mewwme/issues"
   },
   "engines": {
     "node": ">=16"
@@ -45,7 +45,7 @@
       "ts": "tsx"
     }
   },
-  "homepage": "https://github.com/mewwme/mewwme#readme",
+  "homepage": "https://github.com/lrmn7/mewwme#readme",
   "dependencies": {
     "axios": "^1.6.0",
     "bufferutil": "^4.0.8",

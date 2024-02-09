@@ -100,10 +100,10 @@
 - ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge) Git [Download](https://git-scm.com/downloads)
 
 ## 🛠️ Installation local or vps
-1. Clone this repository using `git clone https://github.com/Mewwme/Mewwme.git`
+1. Clone this repository using `git clone https://github.com/lrmn7/Mewwme.git`
 2. run `cd Mewwme` to go to the **Mewwme** folder.
 3. Change the name of **config.example.yml** to **config.yml** and fill it with `TOKEN` and `NODES`
-4. run `yarn i` to install the required packages.
+4. run `yarn install` to install the required packages.
 5. run `yarn start:prod` to build & run the project in production mode.
 6. run `yarn start:dev` to build & run the project in  development mode.
 7. **Enjoy Listening To Music With Mewwme!**
