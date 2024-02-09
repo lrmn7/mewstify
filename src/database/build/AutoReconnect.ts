@@ -57,7 +57,7 @@ export class AutoReconnectBuilder {
       guild: this.player?.guildId,
       text: this.player?.textId,
       voice: voiceId,
-      current: "",
+      current: this.player?.queue.current?.uri ?? "",
       config: {
         loop: "none",
         volume: 100,

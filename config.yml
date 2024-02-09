@@ -51,7 +51,7 @@ lavalink:
     id: fdf0e2d1da9e40169b5918f73addae04
     secret: db0fa34ff766490e87e9996c0ae844e0
 
-  DEFAULT: ["feby putri", "mahalini", "biru baru"] # suggestions song /commands
+  DEFAULT: ["feby putri", "fiersa besari", "biru baru"] # suggestions song /commands
 
   NP_REALTIME: false #beta (Enable this if you want to use realtime duation in nowplaying command)
 

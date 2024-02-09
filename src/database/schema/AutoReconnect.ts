@@ -1,5 +1,3 @@
-import { MewwmeTrack } from "mewwme.player";
-
 export interface AutoReconnect {
   guild: string;
   text: string;
