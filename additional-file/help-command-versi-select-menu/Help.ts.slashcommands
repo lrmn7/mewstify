@@ -6,11 +6,9 @@ import {
   CommandInteraction,
   ButtonBuilder,
   ButtonStyle,
-  AnyComponentBuilder,
 } from "discord.js";
 import { readdirSync } from "fs";
 import { Manager } from "../../../manager.js";
-import fs from "fs";
 import { Accessableby, SlashCommand } from "../../../@types/Command.js";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -42,34 +40,30 @@ export default class implements SlashCommand {
       .setTitle(`${client.i18n.get(language, "help", "homepage_title")}`)
       .setDescription(
         `${client.i18n.get(language, "help", "homepage_desc", {
-          patreon: client.config.bot.PATREON_URL,
+          donate: client.config.bot.DONATE_URL,
         })}`
       )
-      //      .setThumbnail(client.user!.displayAvatarURL({ size: 2048 }))
-      .setImage(client.config.bot.IMGURL_HELPMENU)
+      .setImage(client.config.bot.IMGURL_MENUHELP)
       .setColor(client.color);
 
     const button = new ActionRowBuilder<ButtonBuilder>()
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Website")
-          .setEmoji(client.config.Emoji.E_WEBSITE || "📨")
+          .setLabel("Invite Me")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.WEBSITE_URL)
+          .setURL(client.config.bot.INVITE_URL)
       )
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Support")
-          .setEmoji(client.config.Emoji.E_SUPPORT || "💬")
+          .setLabel("Server Support")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.SERVER_SUPPORT)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Vote Me")
-          .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.VOTEURL)
+          .setURL(client.config.bot.VOTE_URL)
       );
 
     const selectmenu =
@@ -112,11 +106,16 @@ export default class implements SlashCommand {
               .setLabel("Playlist")
               .setValue("Playlist")
               .setEmoji(client.config.Emoji.E_PLAYLIST || "🎧"),
-            // Category: admin
+            // Category: developer
             new StringSelectMenuOptionBuilder()
-              .setLabel("Admin")
-              .setValue("Admin")
-              .setEmoji(client.config.Emoji.E_ADMIN || "🛡️"),
+              .setLabel("Dev")
+              .setValue("Dev")
+              .setEmoji(client.config.Emoji.E_DEV || "🛡️"),
+            new StringSelectMenuOptionBuilder()
+              // Category: utilities
+              .setLabel("Utils")
+              .setValue("Utils")
+              .setEmoji(client.config.Emoji.E_UTILS || "🛡️"),
             new StringSelectMenuOptionBuilder()
               .setLabel("All Commands")
               .setValue("All")
@@ -163,7 +162,6 @@ export default class implements SlashCommand {
                     url: client.config.bot.SERVER_SUPPORT,
                     iconURL: client.user!.displayAvatarURL() as string,
                   })
-                  .setDescription(`Bot prefix is: \`${client.prefix} or /\``)
                   .setImage(client.config.bot.IMGURL_COMMANDMENU)
                   .setColor(client.color);
 
@@ -187,9 +185,7 @@ export default class implements SlashCommand {
                 );
 
                 const embed1 = new EmbedBuilder()
-                  .setDescription(`Bot prefix is: \`${client.prefix} or /\``)
                   .setImage(client.config.bot.IMGURL_COMMANDMENU)
-                  //                .setThumbnail(client.user!.displayAvatarURL({ size: 2048 }))
                   .setColor(client.color)
                   .addFields({
                     name: `${
@@ -203,17 +199,6 @@ export default class implements SlashCommand {
                       .join(", ")}`,
                     inline: false,
                   });
-                //                  .setFooter({
-                //                    text: `© ${
-                //                      interaction.guild!.members.me!.displayName
-                //                    } ${client.i18n.get(
-                //                      language,
-                //                      "info",
-                //                      "footer"
-                //                    )} | Total Commands: ${client.slash.size}`,
-                //                    iconURL: client.user!.displayAvatarURL(),
-                //                  });
-
                 msg.edit({ embeds: [embed1] });
               }
             }
