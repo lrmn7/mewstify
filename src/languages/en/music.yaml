@@ -197,7 +197,7 @@ radio_join: "I don't have permission to join your voice channel."
 radio_speak: "I don't have permission to speak in your voice channel."
 radio_loading: "Loading please wait..."
 radio_track: "**Queued • [%{title}](%{serversupport})** `%{duration}` • %{request}"
-radio_match: "<:mewrong:1193112008124530738> This radio has died, link error or broken. Please report this error to [support server](%{serversupport}) for correction!"
+radio_match: "This radio has died, link error or broken. Please report this error to [support server](%{serversupport}) for correction!"
 
 ### Utils
 number_invalid: "Invalid argument, must be a number."

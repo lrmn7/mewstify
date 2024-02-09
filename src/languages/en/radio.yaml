@@ -1,3 +1,0 @@
-available_radio: "**Available Radio Stations**"
-standard_radio: "***:radio: Standard Radio***"
-prefix: "To play the radio, command: %{prefix}radio (sequence_number)"

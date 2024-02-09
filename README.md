@@ -85,6 +85,36 @@
 - [x] MongoDB
 - [x] JSON
 - [x] PostgresSQL
+```yaml
+  DATABASE:
+    driver: "postgres" # Note: mongodb, mysql, json, postgres
+    config:
+      host: "localhost"
+      user: "me"
+      password: "secret"
+      database: "my_db"
+
+
+  DATABASE:
+    driver: "mysql" # Note: mongodb, mysql, json, postgres
+    config:
+      host: "localhost"
+      user: "me"
+      password: "secret"
+      database: "my_db"
+
+
+  DATABASE:
+    driver: "mongodb"  # Note: mongodb, mysql, json, postgres
+    config:
+      uri: "mongodb://127.0.0.1:27017/mewwme"  # mongodb uri
+
+
+
+  DATABASE:
+    driver: "json" # mongodb, mysql, json, postgres
+    config: { path: "./mewwme.database.json" }
+```
 
 ## 🏆 UI Interface of bot
 ![ui-bot](https://cdn.is-a.fun/bot/archive/ui.png)

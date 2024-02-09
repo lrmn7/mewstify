@@ -1,6 +1,6 @@
 ##### Setup command #####
 setup_topic: "♪ Those who wish to sing always find a song. ♪ "
-setup_msg: "*`Succesfully Setup Music System in`* %{channel}\n```Note: Do not delete any message(s) I've created in order for me to work properly.```"
+setup_msg: "Succesfully Setup Music System in %{channel}\n```Note: Do not delete any message(s) I've created in order for me to work properly.```"
 setup_deleted: "*`Successfully delete setup channel!`*"
 setup_null: "*`There is no channel exists to delete!`*"
 

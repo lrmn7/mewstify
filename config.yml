@@ -21,7 +21,7 @@ bot:
   # set music card settings
   # mewwme, themes1, themes2, themes3, themes4, themes5, themes6, themes7, themes8
   # themes9, themes10, themes11, themes12, themes13, themes14, themes15, themes16, themes17, themes18"
-  THEMES_MUSIC: "themes18"
+  THEMES_MUSIC: "mewwme"
 
   # set presence activity settings for bot
   BOT_ACTIVITY1: ""
@@ -55,7 +55,7 @@ lavalink:
     id: fdf0e2d1da9e40169b5918f73addae04
     secret: db0fa34ff766490e87e9996c0ae844e0
 
-  DEFAULT: ["yoasobi", "one oke rock", "blackpink"]
+  DEFAULT: ["feby putri", "mahalini", "biru baru"]
 
   NP_REALTIME: false #beta (Enable this if you want to use realtime duation in nowplaying command)
 
@@ -84,7 +84,7 @@ lavalink:
 
 features:
     # Note: If you enter an invalid driver, bot will use json driver as default
-    # Config depend on driver, you can see sample config at src/database/driver
+    # Config depend on driver, you can see sample config at src/database/driver or README.md
     # mongodb, mysql, json, postgres
   DATABASE:
     driver: "json" # mongodb, mysql, json, postgres

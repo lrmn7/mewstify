@@ -5,7 +5,7 @@ create_toolong: "playlist id can't be longer than 16 characters."
 des_toolong: "Playlist description cannot be longer than 1000 characters."
 create_limit_playlist: "You can't have playlist more than %{limit} playlists."
 create_name_exist: "This name already have in data."
-create_created: "<:playlistmusic:1193113465632587789> | *Created* • `%{playlist}` • `%{id}`"
+create_created: "*Created* • `%{playlist}` • `%{id}`"
 
 ##### Add command #####
 add_loading: "**Adding to playlist...**"
@@ -17,7 +17,7 @@ add_playlist: "**Searched • [%{title}](%{url})** `%{duration}` (%{track} track
 add_search: "**Searched • [%{title}](%{url})** `%{duration}` • %{user}"
 add_owner: "You can't add songs to this playlist."
 add_limit_track: "You can't add more than %{limit} tracks to this playlist."
-add_added: "<:playlistmusic:1193113465632587789> | *Added* • [`%{count} track's`] to *Playlist* • `%{playlist}`"
+add_added: "*Added* • [`%{count} track's`] to *Playlist* • `%{playlist}`"
 
 ##### Delete command #####
 delete_arg: "Please provide a valid playlist id. Example: %{prefix}delete <playlist id>"
@@ -25,7 +25,7 @@ delete_notfound: "Playlist not found!"
 delete_confirm: "Do you want to delete `%{playlist_id}`?"
 delete_no: "Delete cancelled!"
 delete_owner: "You can't delete this playlist."
-delete_deleted: "<:playlistmusic:1193113465632587789> | *Deleted* • `%{name}`"
+delete_deleted: "*Deleted* • `%{name}`"
 
 ##### Detail command #####
 detail_arg: "Please provide a playlist id. Example: %{prefix}detail <playlist id>"
@@ -62,14 +62,14 @@ remove_arg: "Please provide a playlist id. Example: %{prefix}remove <playlist id
 remove_notfound: "Playlist not found!"
 remove_song_notfound: "Can't not find the song to remove"
 remove_owner: "You can't remove song from this playlist."
-remove_removed: "<:playlistmusic:1193113465632587789> | *Removed* • position `%{position}` in `%{name}`"
+remove_removed: "*Removed* • position `%{position}` in `%{name}`"
 
 ##### Savequeue command #####
 savequeue_arg: "Please provide a playlist id. Example: %{prefix}savequeue <playlist id>"
 savequeue_notfound: "Playlist not found!"
 savequeue_owner: "You can't save song to this playlist."
 savequeue_no_new_saved: "No new track saved in `%{name}` playlist"
-savequeue_saved: "<:playlistmusic:1193113465632587789> | *Saved* • (%{tracks} tracks) to `%{name}`"
+savequeue_saved: "*Saved* • (%{tracks} tracks) to `%{name}`"
 savequeue_no_tracks: "No tracks in queue!"
 
 ##### Public command #####
@@ -78,7 +78,7 @@ public_notfound: "Playlist not found!"
 public_owner: "You can't public this playlist."
 public_already: "This playlist is already public."
 public_loading: "Loading please wait..."
-public_success: "<:playlistmusic:1193113465632587789> | *Playlist is now:* `%{view}`"
+public_success: "*Playlist is now:* `%{view}`"
 public: "Public"
 private: "Private"
 
