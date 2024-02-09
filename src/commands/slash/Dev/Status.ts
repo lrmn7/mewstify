@@ -15,7 +15,7 @@ import { stripIndents } from "common-tags";
 export default class implements SlashCommand {
   name = ["settings-status"];
   description = "Create bot status channel";
-  category = "Utils";
+  category = "Dev";
   accessableby = Accessableby.Owner;
   lavalink = false;
   options = [

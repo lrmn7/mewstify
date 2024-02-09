@@ -8,7 +8,7 @@ import { Accessableby, PrefixCommand } from "../../../@types/Command.js";
 export default class implements PrefixCommand {
   name = "status-channel";
   description = "Create bot status channel";
-  category = "Settings";
+  category = "Dev";
   accessableby = Accessableby.Owner;
   aliases = ["sc"];
   usage = "<create or delete>";
