@@ -1,0 +1,62 @@
+##### On track start playing! Event #####
+track_title: "Currently playing..."
+track_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+
+# Embed Field
+author_title: "Author:"
+request_title: "Requester:"
+volume_title: "Current Volume:"
+queue_title: "Queue Length:"
+duration_title: "Duration:"
+total_duration_title: "Total Duration:"
+current_duration_title: "Current Duration: `[0:00 / %{current_duration}]`"
+
+# Need in voice to use button!
+join_voice: "You need to be in a same/voice channel to use this button."
+
+# Message Button
+switch_pause: Paused
+switch_resume: Resumed
+pause_msg: "<:pause:1193115141156376647> **Song has been %{pause}**"
+
+skip_msg: "<:next:1193113238120968202> **Song has been Skipped**"
+
+stop_msg: "<:stop:1193113393561878548> **Song has been Stopped**"
+
+shuffle_msg: "<:shuffle:1193113431423848450> **Queue has been Shuffled**"
+
+switch_enable: Enabled
+switch_disable: Disabled
+repeat_msg: "<:loop:1193113331767185499> **Loop has been %{loop}**"
+
+volup_msg: "<:volup:1196105452547739788> **Change volume to %{volume}%**"
+voldown_msg: "<:voldown:1196105475050192976> **Change volume to %{volume}%**"
+
+replay_msg: "<:next:1193113238120968202> **Song has been Replayed**"
+
+queue_author: "Queue - %{guild}"
+queue_description: "*Currently Playing*\n*[%{track}](%{serversupport})* `[%{duration}]` • %{requester}\n\n*Upcoming Songs*:%{list_song}"
+queue_footer: "Page • %{page}/%{pages} | Song • %{queue_lang} | Total duration • %{total_duration}"
+
+clear_msg: "<:bin:1193112832930230272> **Queue has been Cleared**"
+
+##### On QueueEnd Event #####
+queue_end_desc: "<:disc:1196006944746524764> **Song has been Ended**"
+
+##### On Track get error!! Event #####
+error_desc: "<:mewrong:1193112008124530738> **Song has error Auto-Skipped**"
+
+##### On Track get stuck!! Event #####
+stuck_desc: "<:mewrong:1193112008124530738> **Song has stuck Auto-Skipped**"
+
+##### On Bot get move Event #####
+
+# On player get discoconnect
+dis_title: "Disconnected"
+dis_desc: "*I've been disconnected from <#%{voice}>*"
+
+# On player get move! = (detroy player)
+leave_title: "Moved"
+leave_desc: "*I got moved auto disconnected*"
+player_end: "Disconnected from <#%{leave}> because i was left alone ;(\n*If you enjoy the service that %{bot} provides, please join the [support server](%{serversupport}) or vote me on [top.gg](%{vote}) to support*"
+download_title: "Download:"

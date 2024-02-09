@@ -1,0 +1,26 @@
+##### Setup command #####
+setup_topic: "♪ Those who wish to sing always find a song. ♪ "
+setup_msg: "*`Succesfully Setup Music System in`* %{channel}\n```Note: Do not delete any message(s) I've created in order for me to work properly.```"
+setup_deleted: "*`Successfully delete setup channel!`*"
+setup_null: "*`There is no channel exists to delete!`*"
+
+##### Setup Handler #####
+setup_queuemsg: "**__Queue list:__**\nJoin a voice channel and queue songs by name or url in here."
+
+setup_playembed_author: "No song playing currently."
+
+##### Setup Update Handler #####
+
+setup_author: "Currently playing..."
+setup_author_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+setup_desc: "[%{title}](%{serversupport}) `[%{duration}]` • %{request}"
+setup_footer: "%{songs} • Song's in Queue | Volume • %{volume}% | %{duration} • Total Duration"
+
+setup_content: "**__Queue list:__**"
+setup_content_queue: "*`%{index} • %{title} • [%{duration}]`* • %{request}"
+setup_content_empty: "Join a voice channel and queue songs by name or url in here."
+
+setup_enable: "*`Already have setup channel, can't use this command.`*"
+status_deleted: "*`Successfully delete status channel!`*"
+status_enable: "*`Already have status channel, can't use this command.`*"
+status_null: "*`There is no channel exists to delete!`*"

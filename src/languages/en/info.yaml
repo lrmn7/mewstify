@@ -1,0 +1,109 @@
+#about commands
+dev_foot: "Thank you for choosing Mewwme's as your personal music bot!"
+
+inv_title: "**Thanks for Inviting %{username}**"
+inv_desc: "You can invite me by clicking the button below.\nAny bugs or outages? Join the **[support server](%{support})**"
+
+ping_title: "**Ping of **"
+ping_desc: "**My Ping is %{ping}ms**"
+
+# Footer
+footer: "Miko Radio Team"
+
+# Announcement to all server bot
+announcement_image: "*Do you want to add an image to this announcement? Reply with* **`yes`** /**`no`**"
+announcement_desc: "**Enter a description for this announcement**"
+announcement_imageURL: "**Enter the image URL for this announcement**"
+announcement_invalidURL: "**Invalid image URL provided or no URL was given. Please provide a valid image URL.**"
+announcement_timeout_failure: "**Timed out. Please try again.**"
+announcement_failure: "*Failed to send the announcement in any guild.*\nReason: **No guilds were found.**"
+announcement_success: "**Announcement has been sent successfully in %{successfulGuilds} guild%{plural}!**"
+
+# Update to server support bot
+update_desc: "**Enter a description for this update**"
+update_success: "**Announcement bot update has been sent successfully!**"
+update_failure: "*Failed to send the announcement in any guild.*\nReason: **Channel id not set.**"
+update_timeout_failure: "**Timed out. Please try again.**"
+
+# Suggestions bot
+suggestions_title: "Suggestions %{bot}"
+suggestions_askdesc: "**Enter a suggestion for this bot**"
+suggestions_success: "**Thank you for your suggestion.\nThe suggestion has been successfully sent.**"
+suggestions_failure: "*Failed to send the suggestion. Please try again.*"
+suggestions_timeout_failure: "*Timed out. Please try again.*"
+suggestions_footer: "Suggestions by %{username}"
+
+# Report bot
+report_title: "Report %{bot}"
+report_askdesc: "**Enter a report for this bot**"
+report_success: "**Thank you for your report.\nThe report has been successfully submitted for resolution.**"
+report_failure: "*Failed to send the report. Please try again.*"
+report_timeout_failure: "*Timed out. Please try again.*"
+report_footer: "Report by %{username}"
+report_img_invalid: "**Invalid image URL provided or no URL was given. Please provide a valid image URL.**"
+
+# disclaimer
+disclaimer_desc: "**By using this bot, you automatically agree that the developer of this bot is not responsible for any damage done to non-NSFW channels or copyright rights.\nThe developer has no effect on what music is played.**"
+
+# get premium
+getpremium_desc: "**Currently, all features available on this music bot are provided for free without requiring payment or voting.\nWe are committed to delivering an optimal experience for users without the limitations of a premium subscription**"
+
+custombot_desc: |
+  <:botme:1204848589604528129> **Custom bot perks:**
+  <:blank:1173965100311379978><:24h:1204851937325883452> **Bot Online 24/7.**
+  <:blank:1173965100311379978><:meava:1204848463083474954> **Custom bot avatar.**
+  <:blank:1173965100311379978><:dot:1204852398913232936> **Custom bot name.**
+  <:blank:1173965100311379978><:mepencil:1204848507220004944> **Fully customizable bot status and activity.**
+  <:blank:1173965100311379978><:magic:1204853015585226855> **Custom own prefix bot.**
+  <:blank:1173965100311379978><:melock:1204850955363811420> **Custom own public or private.**
+  <:blank:1173965100311379978><:emojime:1204851242271252492> **Custom emojis.**
+  <:blank:1173965100311379978><:radio:1204848974935363624> **Custom radio FM stations.**
+  <:blank:1173965100311379978><:meall:1193100157928099931> **Unlocking all features, (prefix & slash commands).**
+
+  <:like:1204848571090866246> **Base premium perks:**
+  <:blank:1173965100311379978><:music:1193101413362966559> **24/7 Music Playback.**
+  <:blank:1173965100311379978><:volup:1196105452547739788> **Volume controls.**
+  <:blank:1173965100311379978><:home:1193100237133336670> **Create welcomer images for your server.**
+  <:blank:1173965100311379978><:playlistmusic:1193113465632587789> **Unlimited music playlists.**
+  <:blank:1173965100311379978><:switch:1196007160279203841> **Added 25+ filter menu.**
+  <:blank:1173965100311379978><:singing:1196006929932234782> **Higher quality audio.**
+  <:blank:1173965100311379978><:meweb:1193107047793840220> **HTTP stream stations.**
+  <:blank:1173965100311379978><:slash:1204854174907637780> **Lower commands cooldown.**
+  <:blank:1173965100311379978><:sparkle:1204848989992648704> **Early access to Mewwme's new features.**
+  <:blank:1173965100311379978><:mepriority:1204848524517187615> **Priority support.**
+
+  <:info:1193100286881964104> **How to get my own custom bot?**
+  <:blank:1173965100311379978><:sparkle:1204848989992648704> **By becoming a member on our [Patreon page](%{patreon}).**
+
+privacy: |
+  **User Agreement**
+  Using [%{bot}](%{serversupport}) ("bot") on the server requires the collection of certain user data. The data collected includes but is not limited to the user's Discord ID, Discord username, and server roles. Using the Bot is considered acceptance of these policy terms.
+
+  **Data Access**
+  Access to data is only allowed for bot developers and hosting services and only within the scope necessary for bot development, testing, and feature implementation. Data is not sold, given to, or shared with any third party, except as required by law or the Terms of Service agreement. You can view your data upon request from [developer](%{developer}).
+
+  **Data Storage**
+  Data is stored in the PlanetScale database. The database is secured to prevent external access. However, no guarantees are provided, and the Bot owner is not responsible for unintentional or malicious data breaches. If there is unauthorized Data access, the server staff will notify users through the Support Server.
+
+  **User Rights**
+  At any time, you have the right to request to view your Discord account data. You have the right to request the deletion of relevant Data. To do this, users must submit a request through the Support Server.
+
+  **Questions**
+  If you have questions or concerns about what data may be stored from your account, please contact [staff](%{serversupport}). For more information, check the Discord Terms of Service.
+
+termsofservice: |
+  **Usage Agreement**
+  By inviting [%{bot}](%{serversupport}) ("bot") and using its features, you agree to the Terms of Service and Privacy Policy of the bot.
+
+  You acknowledge that you can use the bot freely on any Discord Server you share it with. You can invite it to any Server that you have "Manage Server" rights, and this privilege may get revoked if you are subject to breaking the terms of service or privacy policy of this bot or the Terms of Service, Privacy Policy, or Community Guidelines of Discord Inc.
+
+  Through inviting, the bot may collect specific data as described in its Privacy Policy. This data's intended usage is for the bot's core functionalities, such as executing commands.
+
+  **Affiliation**
+  The bot is not affiliated with, supported, or made by Discord Inc. Any direct connection to Discord or any of its Trademark objects is purely coincidental. We do not claim copyright ownership of Discord's assets, trademarks, or other intellectual property.
+
+  **Underage users**
+  The bot is not permitted for minors under the age of 13 or under the legal consent of their country. This complies with the Discord Terms of Service. No information will be knowingly stored from an underage user. If it is found out that a user is underage, we will take all necessary actions to delete the stored data.
+
+  **Liability**
+  The bot's developers and owner may not be made liable for individuals breaking these Terms at any given time. The right to update these terms is reserved at our discretion, giving a 1-Week (7 days) period to opt out of these terms. A user may opt-out by removing the bot from any server where the user has the right to remove the bot.

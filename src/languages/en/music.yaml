@@ -1,0 +1,206 @@
+### 247 command!
+247_loading: "<a:loading:1169254882193186847> Loading please wait..."
+247_invalid: "**Invalid 247 mode.**\n**Usage**: `%{usage}`"
+247_off: "<:switch:1196007160279203841> **Mode 24/7 has been Deactivated**"
+247_on: "<:switch:1196007160279203841> **Mode 24/7 has been Activated**"
+247_on_already: "<:switch:1196007160279203841> **24/7 is already in mode Activated**"
+247_off_already: "<:switch:1196007160279203841> **24/7 is already in mode Deactivated**"
+
+### Autoplay command!
+autoplay_loading: "<a:loading:1169254882193186847> Loading please wait..."
+autoplay_off: "<:checklist:1193111935462420531> **Autoplay has been Deactivated**"
+autoplay_on: "<:checklist:1193111935462420531> **Autoplay has been Activated**"
+
+### Clearqueue command!
+clearqueue_loading: "<a:loading:1169254882193186847> Loading please wait..."
+clearqueue_msg: "<:bin:1193112832930230272> **Queue has been Cleared**"
+
+### Forward command!
+forward_loading: "<a:loading:1169254882193186847> Loading please wait..."
+forward_msg: "**Forward to %{duration}**"
+forward_beyond: "Cannot forward beyond the song's duration."
+forward_invalid: "Invalid argument, must be a number.\nCorrect Usage: `%{prefix}forward <seconds>`"
+
+### Join command!
+join_loading: "<a:loading:1169254882193186847> Loading please wait..."
+join_voice: "You need to be in a voice channel to use the join command."
+join_msg: "<:checklist:1193111935462420531> **Joined to** %{channel}"
+
+### Leave command!
+stop_loading: "<a:loading:1169254882193186847> Loading please wait..."
+stop_msg: "<:checklist:1193111935462420531> **Bot has been Disconnected**"
+
+### Loop command!
+loop_loading: "<a:loading:1169254882193186847> Loading please wait..."
+loop_invalid: "Invalid loop mode, only %{mode}"
+loop_current: "<:checklist:1193111935462420531> **Loop Mode CURRENT**"
+unloop_current: "<:checklist:1193111935462420531> **Song is unloop CURRENT**"
+loop_all: "<:checklist:1193111935462420531> **Loop Mode QUEUE**"
+unloop_all: "<:checklist:1193111935462420531> **Loop Mode NONE**"
+
+### Loopall command!
+loopall_loading: "<a:loading:1169254882193186847> Loading please wait..."
+loopall: "<:checklist:1193111935462420531> **Song is loop ALL**"
+unloopall: "<:checklist:1193111935462420531> **Loop Mode NONE**"
+
+### Lyrics command!
+lyrics_loading: "<a:loading:1169254882193186847> Searching for lyrics..."
+lyrics_notfound: "Couldn't find any lyrics for that song!"
+lyrics_title: "Lyrics for %{song}"
+lyrics_toolong: "Lyrics too long to display!"
+
+### Nowplaying command!
+np_loading: "<a:loading:1169254882193186847> Loading please wait..."
+
+np_title: "Now playing..."
+np_title_pause: "Song pause..."
+np_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+
+# Embed Field
+np_author: "Author:"
+np_request: "Requester:"
+np_volume: "Volume:"
+np_view: "Views:"
+np_upload: "Upload At:"
+np_download: "Download:"
+np_current_duration: "Current Duration: `[%{current_duration} / %{total_duration}]`"
+
+# Need in voice to use button
+np_invoice: "You need to be in a same/voice channel."
+
+# Message Button
+np_switch_pause: "Paused"
+np_switch_resume: "Resumed"
+np_pause_msg: "<:pause:1193115141156376647> **Song has been %{pause}**"
+
+np_replay_msg: "<:back:1193113192994447502> **Song has been Replayed**"
+
+np_stop_msg: "<:stop:1193113393561878548> **Song has been Stopped**"
+
+np_skip_msg: "<:next:1193113238120968202> **Song has been Skipped**"
+
+np_switch_enable: "Enabled"
+np_switch_disable: "Disabled"
+np_repeat_msg: "<:loop:1193113331767185499> **Loop has been %{loop}**"
+
+### Pause command!
+pause_loading: "<a:loading:1169254882193186847> Loading please wait..."
+pause_switch_pause: "Paused"
+pause_switch_resume: "Resumed"
+pause_msg: "<:pause:1193115141156376647> **Song has been %{pause}**"
+
+### Play command!
+play_loading: "<a:loading:1169254882193186847> **Searching...** `%{result}`"
+play_invoice: "You need to be in a voice channel to use command."
+play_join: "I don't have permission to join your voice channel."
+play_speak: "I don't have permission to speak in your voice channel."
+play_arg: "Please provide a song name or link to search."
+play_startwith: "Please use link to play music."
+play_invalid_file: "Please use a valid music file to use this feature. Note that only mp3/ogg extension is supported, professional music file extensions like flac/wav will not be supported."
+play_warning_file: "Warning: The system cannot detect your file type. The system may not be able to play music. We recommend that you choose any file type with .mp3 extension. "
+
+play_track: "**Queued • [%{title}](%{serversupport})** `%{duration}` • %{request}"
+play_playlist: "**Queued • [%{title}](%{serversupport})** `%{duration}` (%{songs} tracks) • %{request}"
+play_result: "**Queued • [%{title}](%{serversupport})** `%{duration}` • %{request}"
+
+play_fail: "Error loading track failed"
+play_match: "Error song not matches"
+
+### Previous command!
+previous_loading: "<a:loading:1169254882193186847> Loading please wait..."
+previous_notfound: "No previous song/s found."
+previous_msg: "<:back:1193113192994447502> **Song has been Previous**"
+
+### Queue command!
+queue_author: "Queue - %{guild}"
+queue_description: "*Currently Playing*\n*[%{title}](%{serversupport})* `[%{duration}]` • %{request}\n\n*Upcoming Songs*:%{rest}"
+queue_footer: "Page • %{page}/%{pages} | Song • %{queue_lang} | Total duration • %{duration}"
+queue_notnumber: "Page must be a number."
+queue_page_notfound: "There are only %{page} pages available."
+
+### Replay command!
+replay_loading: "<a:loading:1169254882193186847> Loading please wait..."
+replay_msg: "<:back:1193113192994447502> **Song has been Replayed**"
+
+### Resume command!
+resume_loading: "<a:loading:1169254882193186847> Loading please wait..."
+resume_switch_pause: "Paused"
+resume_switch_resume: "Resumed"
+resume_msg: "<:play:1193113362293338112> **Song has been %{resume}**"
+
+### Rewind command!
+rewind_loading: "<a:loading:1169254882193186847> Loading please wait..."
+rewind_msg: "<:back:1190604445629825084> **Rewind to %{duration}**"
+rewind_beyond: "Cannot rewind beyond the song's duration."
+rewind_invalid: "Invalid argument, must be a number.\nCorrect Usage: `%{prefix}rewind <seconds>`"
+
+### RemoveTrack command!
+removetrack_loading: "<a:loading:1169254882193186847> Loading please wait..."
+
+removetrack_already: "Cannot remove a song that is already playing."
+removetrack_notfound: "Song not found."
+
+removetrack_desc: "**Removed • [%{name}](%{url})** `%{duration}` • %{request}"
+
+### RemoveTrack command!
+removetrack_duplicate_desc: "Removed `%{removed}` tracks from queue \n Before: `%{original}` | After: `%{new}`"
+
+### Search command!
+search_loading: "<a:loading:1169254882193186847> Loading please wait..."
+search_invoice: "You need to be in a voice channel to use command."
+search_join: "I don't have permission to join your voice channel."
+search_speak: "I don't have permission to speak in your voice channel."
+search_arg: "Please provide a song name or link to search."
+
+search_title: "Song Selection..."
+search_select: "**(%{num}.) [%{title}](%{url})** `%{duration}` Author: `%{author}`"
+search_footer: "Please select a song in 30 seconds."
+search_no_response: "No response."
+
+search_result: "**Queued • [%{title}](%{url})** `%{duration}` • %{request}"
+search_playlist: "**Queued • [%{title}](%{url})** `%{duration}` (%{songs} tracks) • %{request}"
+
+search_fail: "Error loading track failed"
+search_match: "Error song not matches"
+
+### Seek command!
+seek_loading: "<a:loading:1169254882193186847> Loading please wait..."
+seek_invalid: "Invalid format. Please provide a timestamp.\nExample: `%{prefix}seek 0:59 or 120:00`"
+seek_beyond: "Cannot seek beyond length of song."
+seek_msg: "<:next:1193113238120968202> **Seeked to %{duration}**"
+
+### Shuffle command!
+shuffle_loading: "<a:loading:1169254882193186847> Loading please wait..."
+shuffle_msg: "<:shuffle:1193113431423848450> **Queue has been Shuffled**"
+
+### Skip command!
+skip_loading: "<a:loading:1169254882193186847> Loading please wait..."
+skip_msg: "<:next:1193113238120968202> **Song has been Skipped**"
+
+### Skipto command!
+skipto_loading: "<a:loading:1169254882193186847> Loading please wait..."
+skipto_invalid_position: "Invalid number"
+skipto_arg: "Cannot skip to a song that is already playing. To skip the current playing song type: `%{prefix}skip`"
+skipto_invalid: "The song number is invalid."
+skipto_msg: "<:next:1193113238120968202> **Song has been Skipto %{position}**"
+
+### Volume command!
+volume_loading: "<a:loading:1169254882193186847> Loading please wait..."
+volume_usage: "*Current volume **%{volume}%**"
+volume_invalid: "**Oops! you may only set the volume to 1% - 100%**"
+volume_msg: "<:voldown:1196105475050192976> **Change volume to %{volume}%**"
+
+### Radio command!
+radio_invalid: "Invalid number. Please choose a number from 1-34 \nFor radio list, please type /music radio"
+radio_invoice: "You need to be in a voice channel to use command."
+radio_join: "I don't have permission to join your voice channel."
+radio_speak: "I don't have permission to speak in your voice channel."
+radio_loading: "Loading please wait..."
+radio_track: "**Queued • [%{title}](%{serversupport})** `%{duration}` • %{request}"
+radio_match: "<:mewrong:1193112008124530738> This radio has died, link error or broken. Please report this error to [support server](%{serversupport}) for correction!"
+
+### Utils
+number_invalid: "Invalid argument, must be a number."
+enabled: "Enabled"
+disabled: "Disabled"
+no_node: "No lavalink server avalible! \nPlease try again after 5 minutes."

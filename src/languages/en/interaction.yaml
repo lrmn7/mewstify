@@ -1,0 +1,25 @@
+##### InteractionCreate Event #####
+
+# On settings/config.js in DEV_ID
+dev_only: The bot is under maintenance. (Please come back again later)
+
+# No permission to use command (this for bot!)
+no_perms: I don't have perms to execute command!\nRequires send messages permission
+
+# Bot getting error something!
+error: Something went wrong.
+
+# You are not the client owner of this bot!
+owner_only: Oops! You're not the client owner.
+
+no_perms_sendmessage: "<:mewrong:1193112008124530738> I don't have perms to execute command! \n <:blank:1173965100311379978><:checklist:1193111935462420531>Requires `send messages` permission"
+
+no_perms_viewchannel: "<:mewrong:1193112008124530738> I don't have perms to execute command!\n<:blank:1173965100311379978><:checklist:1193111935462420531>Requires `viewchannel/embedlinks` permission"
+
+no_perms_speak: "<:mewrong:1193112008124530738> I don't have perms to execute command!\n<:blank:1173965100311379978><:checklist:1193111935462420531>Requires `speak` permission"
+
+no_perms_connect: "<:mewrong:1193112008124530738> I don't have perms to execute command!\n<:blank:1173965100311379978><:checklist:1193111935462420531>Requires connect permission"
+
+no_perms_managemessages: "<:mewrong:1193112008124530738> I don't have perms to execute command!\n<:blank:1173965100311379978><:checklist:1193111935462420531>Requires `manage messages` permission"
+
+no_perms_managechannels: "<:mewrong:1193112008124530738> I don't have perms to execute command!\n<:blank:1173965100311379978><:checklist:1193111935462420531>Requires `manage channels` permission"

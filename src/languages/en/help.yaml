@@ -1,0 +1,42 @@
+# mention introduce
+intro1: "**The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.**"
+prefix: |
+  ・Bot prefix for this server is `%{prefix}`
+  ・Change prefix with `%{prefix} prefix <new prefix>`
+  ・Play a track by link or search term `%{prefix} play`
+  ・Play a lofi music with `%{prefix} lofi`
+  Type `%{prefix} help` command for more commands.
+intro2: |
+  %{bot} requires `administrator` permissions,
+  If you want to disable Administrator permission from %{bot}, it will not work properly! You will still be able to listen to basic music features but some things won't work.
+
+  <a:support:1183153677553381376>**Help Support**
+  Join our **[support server](%{serversupport})** if you need help, want to get information about updates and issues or want to engage in community discussions with the developers!
+
+# message that the bot will send if it has just joined the server
+introadd1: "**Thankyou for adding me to your server, here are some commands you can use**"
+prefixadd: |
+  ・Bot prefix for this server is `%{prefix}`
+  ・Change prefix with `%{prefix} prefix <new prefix>`
+  ・Play a track by link or search term `%{prefix} play`
+  ・Play a lofi music with `%{prefix} lofi`
+  Type `%{prefix} help` command for more commands.
+
+introadd2: |
+  %{bot} requires `administrator` permissions,
+  If you want to disable Administrator permission from %{bot}, it will not work properly! You will still be able to listen to basic music features but some things won't work.
+  Type `%{prefix} help` command for more commands.
+
+  <a:support:1183153677553381376>**Help Support**
+  Join our **[support server](%{serversupport})** if you need help, want to get information about updates and issues or want to engage in community discussions with the developers!
+
+#Homepage menu
+homepage_title: "The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities."
+homepage_desc: |
+  <:blank:1173965100311379978><:disc:1196006944746524764> **Music 24/7**
+  <:blank:1173965100311379978><:switch:1196007160279203841> **Music Filters**
+  <:blank:1173965100311379978><:playlist:1193105976694407208> **Music Playlist**
+  <:blank:1173965100311379978><:prem:1193109484688642118> **Unlock Premium Features**
+  <:blank:1173965100311379978><:singing:1196006929932234782> **Spotify, Soundcloud, Twitch, Bandcamp & More...**
+
+  <:blank:1173965100311379978><a:support:1183153677553381376> **Do you want to support Mewwme's? [Patreon](%{donate})**

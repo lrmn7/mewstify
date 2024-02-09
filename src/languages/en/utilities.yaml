@@ -1,0 +1,59 @@
+##### Language command #####
+lang_perm: "You need the `MANAGE_GUILD` permission to use this command."
+lang_arg: "Please specify a language!"
+provide_lang: "**Please provide languages:** \n`%{languages}`"
+lang_set: "<:checklist:1193111935462420531> **Language has been set to:** `%{language}`"
+lang_change: "<:checklist:1193111935462420531> **Language has been change to:** `%{language}`"
+lang_error: "Something went wrong please try again later."
+
+##### Restart command #####
+restart_msg: "<:admin:1190590207444123668> **Client has been Shutting down**"
+
+##### PLayer control command #####
+control_perm: "You need the `MANAGE_GUILD` permission to use this command."
+control_set: "<:checklist:1193111935462420531> *Player control mode has been set to:* `%{toggle}`"
+control_change: "<:checklist:1193111935462420531> *Player control mode has been change to:* `%{toggle}`"
+control_err: "An error occured while setting the player control mode!"
+
+##### Help command #####
+help_desc: "Enjoy music with me!"
+help_category_desc: "Select the %{category} to see all commands."
+help_category: "%{category}"
+help_timeout: "Help Menu timed out try using **`%{prefix}help`** or **`/help`** again."
+
+##### Prefix command #####
+prefix_perm: "You need the `MANAGE_GUILD` permission to use this command."
+prefix_arg: "Please specify a prefix!"
+prefix_length: "The prefix can't be longer than 10 characters!"
+prefix_set: "<:checklist:1193111935462420531> *Prefix has been set to:* `%{prefix}`"
+prefix_change: "<:checklist:1193111935462420531> *Prefix has been change to:* `%{prefix}`"
+prefix_error: "An error occured while setting the prefix!"
+
+arg_error: "Please specify a `%{text}`!"
+
+page_title: "Online: 🟢 / Offline: 🔴"
+page_footer: "Page • %{page}/%{pages}"
+
+### Emoji command #####
+usage_emoji: "Oops! Invalid commands.\n Please use the following commands `%{usage}`"
+usage_bigemoji: "Oops! Invalid commands.\n Please use the following commands `%{usage}`"
+invalid_emoji: "This is not a valid guild emoji. Please select an emoji from the list."
+error_emoji: "An error occurred while processing emoji. Please try again later."
+
+### Proxyscrape command #####
+error_proxies: "Could not fetch data from Proxyscrape API. Try again later."
+usage_proxies: "Oops! Invalid commands.\n Please use the following commands `%{usage}`\n\nAvailable types: `all`, `http`, `socks4`, `socks5`"
+invalid_proxies: "Incorrect proxy type.\nAvailable types: `all`, `http`, `socks4`, `socks5`"
+
+### GitHub command #####
+github_nouser: "Could not find a user with this name **%{username}** on GitHub."
+github_usage: "Oops! Invalid commands.\n Please use the following commands `%{usage}`"
+github_error: "An error occurred while processing GitHub. Please try again later."
+
+### Cat command #####
+cat_loading: "<a:loading:1169254882193186847> Sending **%{name}** images. Please wait..."
+cat_error: "An error occured while sending the image! Please try again."
+
+### Quote command #####
+quote_loading: "<a:loading:1169254882193186847> Sending **%{name}**. Please wait..."
+quote_error: "An error occured while sending the quote! Please try again."

@@ -1,153 +1,125 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/lrmn7"><img src="https://cdn.discordapp.com/attachments/1098969636306960465/1134465194043650078/lrmncircle.png" height="200" alt="LRMN"></a>
-  <br>
-Hi, i'm L RMN.
-  <br>
-</h1>
-
-<p align="center">Admin, AutoMod, Anime, Economy, Fun, Giveaway, Image, Invite, Information, Moderation, Music, Owner, Social, Statistics, Suggestion, Ticket, Utility and More...</p>
-
-<br>
-
+<br />
 <p align="center">
-  <a href="#-resource-links">Resource Links</a>
-  •
-  <a href="#-prerequisites">Prerequisites</a>
-  •
-  <a href="#-getting-started">Getting Started</a>
-  •
-  <a href="#-features">Features</a>
-  •
-  <a href="#-contributing">Contributing</a>
+  <a href="https://discord.gg/6EXgrmtkPX">
+    <img src="https://cdn.is-a.fun/bot/mewwme/mewgithub.png" alt="Mewwme" >
+  </a>
+
+  <h1 align="center">Mewwme's</h1>
+
+  <p align="center">The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.
+    <br />
+    <br />
+    <a href="https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=551940385840&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2F6EXgrmtkPX&scope=guilds.join+bot+applications.commands">Invite Mewwme's</a>
+    ·
+    <a href="https://discord.gg/6EXgrmtkPX">Report Issues & Give Suggestions</a>
+    ·
+    <a href="https://discord.gg/mewwme">Support Server</a>
+  </p>
 </p>
 
-<br>
+## ✨ Features
+- Full TypeScript Language To Avoid Errors In Production
+- Advanced Music System With Control Buttons
+- Song Request Channel
+- 24/7 Mode
+- Multi Language
+- Prefix & Slash Commands
+- 25+ Filters
+- Customizable Music Card with Mewcard (added 18 themes)
+- Playlist System
+- Play Song Using File
+- Play Lofi Mode For Soft Music
+- Shard System
+- Auto Reconnect
+- Auto Fix Lavalink From [lavalink.darrennathanael.com](https://lavalink.darrennathanael.com/NoSSL/lavalink-without-ssl)
 
-## 🔗 Resource Links
+## 📜 Command Categories
+- **ADMIN**
+  - announcement, restart, update
+- **INFO**
+  - about, avatar, help, info, lavalink, invite, ping, privacy, profile, report, status, suggestions, termsofservice
+- **MUSIC**
+  - autoplay, clear, mp3, forward, join, lofi, loopall, loop, lyrics, music, nowplaying, pause, play, previous, queue, radio, remove, remove-duplicate, replay, resume, rewind, seek, shuffle, skip, stop, volume
+- **PLAYLIST** (11 commands)
+  - pl-add, pl-all, pl-create, pl-delete, pl-detail, pl-editor, pl-play, pl-info, playlist, pl-remove, pl-save-queue
+- **FILTER**
+  - 3d, bass, china, chipmunk, bassboost, darthvader, daycore, doubletime, earrape, equalizer, filter, karaoke, nightcore, pitch, pop, rate, reset, slowmotion, soft, speed, superbass, television, treblebass, tremolo, vaporwave, vibrate, vibrato
+- **SETTINGS**
+  - 24/7, setting-control, language, prefix, setup, status-channel
+- **UTILS**
+  - avatar, bigemoji, emoji, github, guildinfo, memberinfo
 
-- 🌌 Dashboard: [Dashboard](https://lrmn-bot.hop.sh/)
-- 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=8&scope=bot%20applications.commands)
-- 🤝 Support Server: [Join Here](https://discord.gg/WFfjrQxnfH)
-- 📂 Documentation URL: [Visit Here](https://mkdocs-lucy.vercel.app)
-- 🐳 Docker Image: [Hub](https://hub.docker.com/r/lrmn/lrmn-bot:latest)
-- 🚀 Hoosted: [Hop.io](https://hop.io)
 
-## 📦 Prerequisites
+## 🚀 Supported Sources
+|           Music Source           | Without Lavalink Plugin | With Lavalink Plugin |
+| :------------------------------: | :---------------------: | :------------------: |
+|             YouTube              |           ✅            |          ✅          |
+|            SoundCloud            |           ✅            |          ✅          |
+|           (LS) Spotify           |           ⚠️            |          ✅          |
+|               HTTP               |           ✅            |          ✅          |
+|           (LS) Deezer            |           ⚠️            |          ✅          |
+|              Twitch              |           ✅            |          ✅          |
+|             Bandcamp             |           ✅            |          ✅          |
+|            Nicovideo             |           ⚠️            |          ⚠️          |
+|         (LS) Apple Music         |           ⚠️            |          ✅          |
+|        (LS) Yandex Music         |           ❌            |          ✅          |
+|         (LS) Flowery TTS         |           ❌            |          ✅          |
+|          (DB) Mixcloud           |           ❌            |          ✅          |
+|          (DB) OC ReMix           |           ❌            |          ✅          |
+|           (DB) Clyp.it           |           ❌            |          ✅          |
+|           (DB) Reddit            |           ❌            |          ✅          |
+|           (DB) GetYarn           |           ❌            |          ✅          |
+|       (DB) Text to Speech        |           ❌            |          ✅          |
+|        (DB) TikTok (BETA)        |           ❌            |          ✅          |
+| (DB) P\*\*nhub (Not recommended) |           ❌            |          ✅          |
+|          (DB) Soundgasm          |           ❌            |          ✅          |
 
-- [Node.js](https://nodejs.org/en/) v16.11.0 or higher
-- [Git](https://git-scm.com/downloads)
-- [MongoDB](https://www.mongodb.com)
+- ✅ **Full support with the default Lavalink configuration**
+- ⚠️ **Supports but resolves from YouTube or SoundCloud only**
+- ❌ **Unsupported**
+- (LS) **Source from LavaSrc plugin**
+- (DB) **Source from DuncteBot plugin**
 
-## 🚀 Getting Started
+## 📚 Supported Databases
+- [x] MySQL
+- [x] MongoDB
+- [x] JSON
+- [x] PostgresSQL
 
-- Open the terminal and run the following commands
+## 🏆 UI Interface of bot
+![ui-bot](https://cdn.is-a.fun/bot/archive/ui.png)
 
-```
-git clone https://github.com/lrmn7/lrmn.git
-cd lrmn
-npm install
-```
+## 🔮 18 Themes, easy setup
+![musiccard](https://cdn.is-a.fun/bot/archive/musiccard.png)
+![musiccard](https://cdn.is-a.fun/bot/archive/card.png)
 
-- Wait for all the dependencies to be installed
-- Rename `.env.example` to `.env` and fill the values
-- Optionally edit `config.js`
-- Type `npm run start` to start the bot
+## 📋 Requirements
+- ![Node.js](https://img.shields.io/badge/Node.js-026E00?style=for-the-badge) Node.js Version 16.6.0+ [Download](https://nodejs.org/en/download)
+- ![Discord](https://img.shields.io/badge/Discord-404EED?style=for-the-badge) Discord Bot Token [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
+- ![Lavalink](https://img.shields.io/badge/Lavalink-FC3F37?style=for-the-badge) Lavalink Version 4.0.0+ [Download](https://github.com/lavalink-devs/Lavalink/releases)
+- ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge) Git [Download](https://git-scm.com/downloads)
 
-If you need any additional help, make sure to read our guides [here](docs/additional/installation.md)
+## 🛠️ Installation local or vps
+1. Clone this repository using `git clone https://github.com/Mewwme/Mewwme.git`
+2. run `cd Mewwme` to go to the **Mewwme** folder.
+3. Change the name of **config.example.yml** to **config.yml** and fill it with `TOKEN` and `NODES`
+4. run `yarn i` to install the required packages.
+5. run `yarn start:prod` to build & run the project in production mode.
+6. run `yarn start:dev` to build & run the project in  development mode.
+7. **Enjoy Listening To Music With Mewwme!**
 
-<br>
+## 🛠️ Installation with Pterodactyl Panel
+1. [Click Here](https://github.com/mewwme/mewwme.github.io/blob/main/cdn/egg-node-j-s--universal.json) to download the Node.js Egg Template for Pterodactyl.
+2. Fill the **config.yml** file with your Discord bot `TOKEN` and `NODES` configuration.
+3. In the Pterodactyl Panel, go to your server's Startup tab:
+   - Set `STARTUP COMMAND 1` to `npm install`.
+4. Optionally, if you have a production-ready start command:
+   - Set `STARTUP COMMAND 2` to `npm run start:prod`.
+5. **Enjoy Listening To Music With Mewwme!**
 
-<h1 align="center"> ✨ Features ✨ </h1>
+Make sure to follow these steps carefully to set up your server for running the Mewwme music bot. If you encounter any issues, join [server discord](https://discord.gg/6EXgrmtkPX)
 
-### 📡 **Advanced Dashboard**
+## ⚙️ Guide
+For advanced installation and configuration guidance, feel free to discuss on our [Discord Server](https://discord.gg/6EXgrmtkPX)
 
-- Manage your servers and make your server-specific settings!
-- Make custom adjustments easy!
-
-### 🛑 **Powerful Moderation:**
-
-- **Moderation Commands.** <br /> _Commands:_ `ban`, `unban`, `timeout`, `voice moderation`, `deafen`, `move`, `warn`, `setnick`, ...
-- **Multi-Function Purge Commands.** <br /> _Commands:_ `purge`, `purge attach`, `purge bots`, `purge links`, `purge token`, `purge user`, ...
-
-### 🤖 **Auto Moderation:**
-
-- **Anti system** <br /> _Commands:_ `anti ghostping`, `anti spam`, `anti massmention`, ...
-- **Auto Delete system** <br /> _Commands:_ `autodelete attachments`, `autodelete invites`, `autodelete links`, `autodelete maxlines`, ...
-- **AutoMod system** <br /> _Commands:_ `automod status`, `automod strikes`, `automod action`, `automod debug`, `automod whitelist`, ...
-
-### ⚙️ **Admin Configuration:**
-
-- **Let a bot be the server's assistant!** <br /> _Commands:_ `autorole`, `farewell`, `welcome`, `counters`, `flag translation`, `reaction roles`, ...
-- **Make custom settings for your own server.** <br /> _Commands:_ `setprefix`, `maxwarns`, `modlog`...
-
-### 💁 **Information Gathering:**
-
-- **User Context Interactions**
-- **Advanced Information** Get deep information about a user, channel, role, etc.
-
-### 🎵 **Music:**
-
-- **LossLess Music!** Enjoy high quality lossless music
-- **Multi-Platform** Play music from YouTube, SoundCloud, Spotify, and more
-- **Filters** Apply filters to your music and spice it up
-
-### 🎉 **Giveaways:**
-
-- **Easy to use** Create giveaways with ease
-- **Role specific** giveaways
-- **Customizable** Customize the giveaway to your liking
-- **Limitless** Create unlimited giveaways
-
-### 🫂 **Social Content:**
-
-- **You Have A CV In Each Server-Specific Bot!** <br /> _Commands:_ `rep`, `rep view`...
-- **Do You Love Someone?** <br /> _Commands:_ `rep give`...
-
-### 🎟 **Ticket System:**
-
-- **Make Supporting Members A Breeze With Tickets!** <br/> Highly customizable ticket system with staff roles
-- **Multiple Categories** <br/> Don't Want The Tickets To Be Everywhere? Categorize them using select menus
-
-### 📉 **Stats Tracking:**
-
-- **Levelling** Track your server's activity with a level system
-- **Leaderboards** See who is the most active user in your server
-- **Customizable System** Configure the levelup message, rank cards to your liking
-
-### 🙋‍♂️ **Suggestions:**
-
-- **Get Suggestions From Server Members To Help Your Server Become The Best!** <br /> _Commands:_ `suggest`, `suggestion`...
-- **Accept Or Decline The Suggestions And Customize Them To The Max!** <br /> _Commands:_ `suggestion status`, `suggestion channel`, `suggestion appch`, `suggestion rejch`, `suggestion approve`, `suggestion staffadd`, `suggestion staffremove`...
-
-### ⚒️ **Utility Commands:**
-
-- **Need Some Help With Something? Use The Utility Commands To Find Out The Answer To It** <br /> _Commands:_ `bigemoji`, `covid`, `pokedex`, `urban`, `weather`, ...
-- **Need Help With Some More Stuff?** <br /> _Commands:_ `help`, `proxies`, `translate`, `paste`, ...
-
-### ⭐ **Anime Content:**
-
-- **Love Anime? Express You Love To Someone Using The React Commands** <br /> _Commands:_ `react`, `hug`, `kiss`, `cuddle`, `pat`, `poke`, `slap`, `smug`, ...
-
-### 🪙 **Economy System:**
-
-- **Want To Become Richest? Use The Economy Commands!** <br /> _Commands:_ `bank`, `daily`, `beg`, `gamble`...
-- **Give People Money, Check Your Balance, Or Just Flex!** <br /> _Commands:_ `bank balance`, `bank deposit`, `bank withdraw`, `bank transfer`, ...
-
-### 😁 **Fun Commands:**
-
-- **Have Some Fun In Your Server!** <br /> _Commands:_ `animal`, `facts`, `meme`, `flip`, ...
-- **Play Games And Enjoy Yourself** <br /> _Commands:_ `snake`, `together`, `flip coin`, `flip text`, ...
-
-### 📨 **Invite Tracking:**
-
-- **Track who has been inviting people to your server!**
-- **Invite Ranks!** Inviter can get awesome rewards and be recognised
-- **Configure these settings and customize them to your liking!** <br /> _Commands:_ `resetinvites`, `addinvites`, `invitesimport`, `inviterank`...
-
-### 📷 **Image Manipulation:**
-
-- **Customize other peoples avatars** <br /> _Commands:_ `blur`, `greyscale`, `invert`, `pixelate`, `blur`, `sepia`, `sharpen`, `ad`, `affect`, `beautiful`, `color`...
-- **Make some images by yourself or make some art** <br /> _Commands:_ `bobross`, `confusedstonk`, `delete`, `facepalm`, ` hitler`, `jail`, `jokeoverhead`, `karaba`, `mms`, `notstonk`, `poutine`, `rainbow`, `rip`, ` shit`, `stonk`, `tatoo`, `thomas`, `trash`, `wanted`, `wasted`, ...
-
-<br>
+---
