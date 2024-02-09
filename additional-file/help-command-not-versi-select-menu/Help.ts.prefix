@@ -98,7 +98,9 @@ export default class implements PrefixCommand {
       Music: client.config.Emoji.E_MUSIC,
       Filter: client.config.Emoji.E_FILTER,
       Playlist: client.config.Emoji.E_PLAYLIST,
+      Utils: client.config.Emoji.E_UTILS,
       Settings: client.config.Emoji.E_SETTING,
+      Dev: client.config.Emoji.E_DEV,
       default: "❓",
     };
     const categoriesInOrder = [
@@ -106,7 +108,9 @@ export default class implements PrefixCommand {
       "Music",
       "Filter",
       "Playlist",
+      "Utils",
       "Settings",
+      "Dev",
     ];
     // Categories will be displayed in the order specified here
 
@@ -150,14 +154,14 @@ export default class implements PrefixCommand {
           .setLabel("Vote")
           .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.VOTEURL)
+          .setURL(client.config.bot.VOTE_URL)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Sponsor")
-          .setEmoji(client.config.Emoji.E_PREMIUM || "💰")
+          .setEmoji(client.config.Emoji.E_DONATE || "💰")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.PATREON_URL)
+          .setURL(client.config.bot.DONATE_URL)
       );
     return message.channel.send({
       embeds: [categoryEmbed],

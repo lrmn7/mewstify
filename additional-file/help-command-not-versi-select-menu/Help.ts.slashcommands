@@ -51,7 +51,9 @@ export default class implements SlashCommand {
       Music: client.config.Emoji.E_MUSIC,
       Filter: client.config.Emoji.E_FILTER,
       Playlist: client.config.Emoji.E_PLAYLIST,
+      Utils: client.config.Emoji.E_UTILS,
       Settings: client.config.Emoji.E_SETTING,
+      Dev: client.config.Emoji.E_DEV,
       default: "❓",
     };
     const categoriesInOrder = [
@@ -59,7 +61,9 @@ export default class implements SlashCommand {
       "Music",
       "Filter",
       "Playlist",
+      "Utils",
       "Settings",
+      "Dev",
     ];
     const categorySections = categoriesInOrder.map((category: string) => {
       if (category === "Admin") return null;
@@ -92,7 +96,7 @@ export default class implements SlashCommand {
       .addComponents(
         new ButtonBuilder()
           .setLabel("Support")
-          .setEmoji(client.config.Emoji.E_SUPPORT || "📨")
+          .setEmoji(client.config.Emoji.E_SUPPORT || "💬")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.SERVER_SUPPORT)
       )
@@ -101,14 +105,14 @@ export default class implements SlashCommand {
           .setLabel("Vote")
           .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.VOTEURL)
+          .setURL(client.config.bot.VOTE_URL)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Sponsor")
-          .setEmoji(client.config.Emoji.E_PREMIUM || "💸")
+          .setEmoji(client.config.Emoji.E_DONATE || "💰")
           .setStyle(ButtonStyle.Link)
-          .setURL(client.config.bot.PATREON_URL)
+          .setURL(client.config.bot.DONATE_URL)
       );
 
     return interaction.editReply({

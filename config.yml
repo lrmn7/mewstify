@@ -125,6 +125,12 @@ Emoji:
   E_INFO: "<:info:1193100286881964104>"
   E_LOADING: "<a:loading:1169254882193186847>"
 
+# Emoji button
+  E_DONATE: "<:sponsor:1193323172230090762>"
+  E_INVITE: "<:invite:1193101531189354597>"
+  E_SUPPORT: "<:supportme:1193101738195034162>"
+  E_VOTE: "<:topggvote:1193101695761260564>"
+
 ServerSupport:
 # set channel support for bot event
   UPDATE_CHANNEL_ID: "1198207171075252305"

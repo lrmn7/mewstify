@@ -49,19 +49,22 @@ export default class implements SlashCommand {
     const button = new ActionRowBuilder<ButtonBuilder>()
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Invite Me")
+          .setLabel("Invite")
+          .setEmoji(client.config.Emoji.E_INVITE || "📨")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.INVITE_URL)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Server Support")
+          .setEmoji(client.config.Emoji.E_SUPPORT || "💬")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.SERVER_SUPPORT)
       )
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Vote Me")
+          .setLabel("Vote")
+          .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.VOTE_URL)
       );

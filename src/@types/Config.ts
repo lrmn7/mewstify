@@ -126,6 +126,10 @@ export interface Emoji {
   E_ALLCMD: string;
   E_MUSIC: string;
   E_LOADING: string;
+  E_INVITE: string;
+  E_SUPPORT: string;
+  E_VOTE: string;
+  E_DONATE: string;
 }
 
 export interface ServerSupport {
