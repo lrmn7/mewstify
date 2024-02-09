@@ -6,13 +6,10 @@ import {
   ComponentType,
   TextChannel,
   User,
-  Events,
-  GuildMember,
   EmbedBuilder,
 } from "discord.js";
 import {
   playerRowOne,
-  playerRowOneEdited,
   playerRowTwo,
 } from "../../utilities/PlayerControlButton.js";
 import { ControlEnum } from "../../database/schema/Control.js";

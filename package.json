@@ -17,10 +17,7 @@
     "start:shard": "npm-run-all build:typescript build build:data && node ./dist/shard.js",
     "start:docker": "tsx ./src/index.ts",
     "dev": "nodemon ./src/index.ts",
-    "remove:slash": "node ./scripts/removeSlash.js",
-    "build:github": "node ./scripts/build.js build:github",
-    "build:zip": "node ./scripts/build.js build",
-    "build:clean": "node ./scripts/build.js clean"
+    "remove:slash": "node ./scripts/removeSlash.js"
   },
   "repository": {
     "type": "git",
