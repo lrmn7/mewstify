@@ -26,7 +26,7 @@ export class ClientDataService {
       0
     )}
     ▸ Codename: ${this.client.metadata.codename}
-    ▸ Bot version: ${this.client.metadata.version}
+    ▸ Mewwme version: ${this.client.metadata.version}
     ▸ Autofix: ${this.client.metadata.autofix}
     \`\`\``;
 
