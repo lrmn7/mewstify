@@ -35,6 +35,12 @@
 - New Lavalink Supported V4
 - Announcement for all servers
 
+## Additional Function
+1. Announcement Feature - Now you can send messages to all connected servers effortlessly, keeping everyone informed and engaged.
+2. Update Feature - A dedicated channel for support has been established to share the latest information, updates, and important bot-related news.
+3. Suggestions Feature - Users can now offer suggestions for bot improvements from anywhere, sending them directly to the support channel.
+4. Report Feature - Users can conveniently report errors, bugs, or any issues using the 'report' command for swift resolution.
+
 ## 📜 Command Categories
 
 | Category   | Commands                                                                                           |
@@ -123,23 +129,21 @@
 ![musiccard](https://cdn.is-a.fun/bot/archive/card.png)
 
 ## 📋 Requirements
-- ![Node.js](https://img.shields.io/badge/Node.js-026E00?style=for-the-badge) Node.js Version 16.6.0+ [Download](https://nodejs.org/en/download)
+- ![Node.js](https://img.shields.io/badge/Node.js-026E00?style=for-the-badge) Node.js Version 18+ [Download](https://nodejs.org/en/download)
 - ![Discord](https://img.shields.io/badge/Discord-404EED?style=for-the-badge) Discord Bot Token [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
 - ![Lavalink](https://img.shields.io/badge/Lavalink-FC3F37?style=for-the-badge) Lavalink Version 4.0.0+ [Download](https://github.com/lavalink-devs/Lavalink/releases)
 - ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge) Git [Download](https://git-scm.com/downloads)
 
 ## 🛠️ Installation local or vps
-1. Clone this repository using `git clone https://github.com/lrmn7/mewwme.git`
-2. run `cd mewwme` to go to the **mewwme** folder.
-3. Change the name of **config.example.yml** to **config.yml** and fill it with `TOKEN` and `NODES`
-4. run `yarn install` to install the required packages.
-5. run `yarn start:prod` to build & run the project in production mode.
-6. run `yarn start:dev` to build & run the project in  development mode.
-7. **Enjoy Listening To Music With Mewwme!**
+1. Change the name of **config.example.yml** to **config.yml** and fill it with `TOKEN`, `NODES` and  other.
+2. run `yarn install` to install the required packages.
+3. run `yarn start:prod` to build & run the project in production mode.
+4. run `yarn start:dev` to build & run the project in  development mode.
+5. **Enjoy Listening To Music With Mewwme!**
 
 ## 🛠️ Installation with Pterodactyl Panel
 1. [Click Here](https://github.com/mewwme/mewwme.github.io/blob/main/cdn/egg-node-j-s--universal.json) to download the Node.js Egg Template for Pterodactyl.
-2. Fill the **config.yml** file with your Discord bot `TOKEN` and `NODES` configuration.
+2. Change the name of **config.example.yml** to **config.yml** and fill it with `TOKEN`, `NODES` and  other.
 3. In the Pterodactyl Panel, go to your server's Startup tab:
    - Set `STARTUP COMMAND 1` to `npm install`.
 4. Optionally, if you have a production-ready start command:

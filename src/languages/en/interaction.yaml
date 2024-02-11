@@ -1,8 +1,5 @@
 ##### InteractionCreate Event #####
 
-# On settings/config.js in DEV_ID
-dev_only: The bot is under maintenance. (Please come back again later)
-
 # No permission to use command (this for bot!)
 no_perms: I don't have perms to execute command!\nRequires `send messages` permission
 

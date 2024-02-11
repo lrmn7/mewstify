@@ -80,7 +80,7 @@ lavalink:
 
 features:
     # Note: If you enter an invalid driver, bot will use json driver as default
-    # Config depend on driver, you can see sample config at src/database/driver or README.md
+    # you can see sample config README.md
     # mongodb, mysql, json, postgres
   DATABASE:
     driver: "json" # mongodb, mysql, json, postgres
@@ -90,7 +90,7 @@ features:
     enable: true
     commands:
       enable: true
-      prefix: ">" # The prefix you want
+      prefix: "me" # The prefix you want
 
   AUTOFIX_LAVALINK: # Fix the lavalink server when the current is down
     enable: true
@@ -106,9 +106,6 @@ features:
       secret: "-19023454588-MEWWME" # You must add your secret key to use ws. A secret key is anything you want
       auth: false
       trusted: ["http://localhost:6969"]
-
-  # Your id or friend id (disable global command)
-  DEV_ID: []
 
 # Emoji config for discord message content in select menu
 # https://discord.gg/mewwme join the discord server if you want to use existing emoji
