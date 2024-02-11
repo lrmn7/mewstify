@@ -28,11 +28,11 @@ bot:
   BOT_STATUS: "idle" # online, idle, dnd, invisible
   CUSTOM_STATUS: "MADE BY TRAGIC" # set custom status if type is 4
 
-  IMGURL_GUILDADD: "https://cdn.is-a.fun/bot/mewwme/thankyou.png"
-  IMGURL_MENUHELP: "https://cdn.is-a.fun/bot/mewwme/help.png"
-  IMGURL_COMMANDMENU: "https://cdn.is-a.fun/mewwme/mewwme.gif"
-  REQUEST_IMAGE: "https://cdn.is-a.fun/bot/mewwme/req.png"
-  IMGURL_MENTION: "https://cdn.is-a.fun/bot/mewwme/help.png"
+  IMGURL_GUILDADD: "https://cdn.is-a.fun/bot/mewwme/meadd.png"
+  IMGURL_MENUHELP: "https://cdn.is-a.fun/bot/mewwme/mehelp.png"
+  IMGURL_COMMANDMENU: "https://cdn.is-a.fun/mewwme/mecmd.png"
+  REQUEST_IMAGE: "https://cdn.is-a.fun/bot/mewwme/mereq.png"
+  IMGURL_MENTION: "https://cdn.is-a.fun/bot/mewwme/mewelcy.png"
 
   # button link
   DEVELOPER_NAME: "L RMN"
