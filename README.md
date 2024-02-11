@@ -45,7 +45,7 @@
 
 | Category   | Commands                                                                                           |
 |------------|----------------------------------------------------------------------------------------------------|
-| ADMIN      | announcement, restart, update                                                                      |
+| DEV      | announcement, restart, update                                                                      |
 | INFO       | about, avatar, help, info, lavalink, invite, ping, privacy, profile, report, status, suggestions, termsofservice |
 | MUSIC      | autoplay, clear, mp3, forward, join, lofi, loopall, loop, lyrics, music, nowplaying, pause, play, previous, queue, radio, remove, remove-duplicate, replay, resume, rewind, seek, shuffle, skip, stop, volume |
 | PLAYLIST   | pl-add, pl-all, pl-create, pl-delete, pl-detail, pl-editor, pl-play, pl-info, playlist, pl-remove, pl-save-queue |
