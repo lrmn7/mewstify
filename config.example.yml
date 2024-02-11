@@ -30,7 +30,7 @@ bot:
 
   IMGURL_GUILDADD: "https://cdn.is-a.fun/bot/mewwme/meadd.png"
   IMGURL_MENUHELP: "https://cdn.is-a.fun/bot/mewwme/mehelp.png"
-  IMGURL_COMMANDMENU: "https://cdn.is-a.fun/mewwme/mecmd.png"
+  IMGURL_COMMANDMENU: "https://cdn.is-a.fun/bot/mewwme/mecmd.png"
   REQUEST_IMAGE: "https://cdn.is-a.fun/bot/mewwme/mereq.png"
   IMGURL_MENTION: "https://cdn.is-a.fun/bot/mewwme/mewelcy.png"
 

@@ -16,8 +16,9 @@ setup_author_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
 setup_desc: "[%{title}](%{serversupport}) `[%{duration}]` • %{request}"
 setup_footer: "%{songs} • Song's in Queue | Volume • %{volume}% | %{duration} • Total Duration"
 
-setup_content: "**__Queue list:__**"
-setup_content_queue: "*`%{index} • %{title} • [%{duration}]`* • %{request}"
+setup_content: "**__Queue list__**"
+### setup_content_queue: "*`%{index} • %{title} • [%{duration}]`* • %{request}"
+setup_content_queue: "*`%{index}. %{title} • %{duration}`*"
 setup_content_empty: "Join a voice channel and queue songs by name or url in here."
 
 setup_enable: "*`Already have setup channel, can't use this command.`*"
