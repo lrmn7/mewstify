@@ -18,7 +18,7 @@ RUN yarn install
 COPY . .
 
 # Set labels for the Docker image
-LABEL name="mewwme" version="5.0"
+LABEL name="mewwme" version="7.0"
 
 EXPOSE 6969
 

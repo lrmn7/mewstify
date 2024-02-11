@@ -66,7 +66,19 @@ export default class implements SlashCommand {
 
       msg.edit({ content: " ", embeds: [off] });
     } else {
-      const identifier = player.queue.current!.identifier;
+      const identifier = player.queue.current?.identifier;
+      if (!identifier) {
+        return msg.edit({
+          embeds: [
+            new EmbedBuilder()
+              .setDescription(
+                `${client.i18n.get(language, "music", "no_songs_playing")}`
+              )
+              .setColor(client.color),
+          ],
+        });
+      }
+
       const search = `https://www.youtube.com/watch?v=${identifier}&list=RD${identifier}`;
       const res = await player.search(search, { requester: interaction.user });
 

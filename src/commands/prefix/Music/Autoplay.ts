@@ -5,7 +5,7 @@ import { Accessableby, PrefixCommand } from "../../../@types/Command.js";
 // Main code
 export default class implements PrefixCommand {
   name = "autoplay";
-  description = "Autoplay music (Random play songs)";
+  description = "Toggle autoplay mode (randomly play songs)";
   category = "Music";
   usage = "";
   aliases = [];
@@ -40,6 +40,7 @@ export default class implements PrefixCommand {
             .setColor(client.color),
         ],
       });
+
     const { channel } = message.member!.voice;
     if (
       !channel ||
@@ -67,14 +68,24 @@ export default class implements PrefixCommand {
 
       msg.edit({ content: " ", embeds: [off] });
     } else {
-      const identifier = player.queue.current!.identifier;
+      const identifier = player.queue.current?.identifier;
+      if (!identifier) {
+        return msg.edit({
+          embeds: [
+            new EmbedBuilder()
+              .setDescription(
+                `${client.i18n.get(language, "music", "no_songs_playing")}`
+              )
+              .setColor(client.color),
+          ],
+        });
+      }
+
       const search = `https://www.youtube.com/watch?v=${identifier}&list=RD${identifier}`;
       const res = await player.search(search, { requester: message.author });
 
       player.data.set("autoplay", true);
-
       player.data.set("identifier", identifier);
-
       player.data.set("requester", message.author);
 
       await player.queue.add(res.tracks[1]);

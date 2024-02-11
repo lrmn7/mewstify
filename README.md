@@ -23,6 +23,7 @@
 - 24/7 Mode
 - Multi Language
 - Prefix & Slash Commands
+- Lyrics search from GENIUS API
 - 25+ Filters
 - Customizable Music Card with Mewcard (added 18 themes)
 - Playlist System

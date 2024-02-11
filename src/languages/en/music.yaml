@@ -10,6 +10,7 @@
 autoplay_loading: "<a:loading:1169254882193186847> Loading please wait..."
 autoplay_off: "Autoplay has been **Deactivated**"
 autoplay_on: "Autoplay has been **Activated**"
+no_songs_playing: "There are no songs playing to turn on or off autoplay."
 
 ### Clearqueue command!
 clearqueue_loading: "<a:loading:1169254882193186847> Loading please wait..."
