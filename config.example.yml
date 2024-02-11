@@ -62,7 +62,7 @@ lavalink:
     [
       # node region Asia/Jakarta
       {
-        url: "34.142.204.199:2333",
+        url: "34.87.36.193:2333",
         name: "mewwme",
         auth: "madebytragic",
         secure: false,
