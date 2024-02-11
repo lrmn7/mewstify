@@ -18,7 +18,6 @@
 </p>
 
 ## ✨ Features
-- Full TypeScript Language To Avoid Errors In Production
 - Advanced Music System With Control Buttons
 - Song Request Channel
 - 24/7 Mode
@@ -33,6 +32,7 @@
 - Auto Reconnect
 - Auto Fix Lavalink From [lavalink.darrennathanael.com](https://lavalink.darrennathanael.com/NoSSL/lavalink-without-ssl)
 - New Lavalink Supported V4
+- Announcement for all servers
 
 ## 📜 Command Categories
 
