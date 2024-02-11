@@ -97,19 +97,22 @@ export default class implements PrefixCommand {
     const buttonHelp = new ActionRowBuilder<ButtonBuilder>()
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Invite Me")
+          .setLabel("Invite")
+          .setEmoji(client.config.Emoji.E_INVITE || "📨")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.INVITE_URL)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Server Support")
+          .setEmoji(client.config.Emoji.E_SUPPORT || "💬")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.SERVER_SUPPORT)
       )
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Vote Me")
+          .setLabel("Vote")
+          .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.VOTE_URL)
       );
@@ -216,7 +219,7 @@ export default class implements PrefixCommand {
                 )) {
                   const commandList = commands.join(", ");
                   embed.addFields({
-                    name: `❯ ${category.toUpperCase()} [${commands.length}]`,
+                    name: `${category.toUpperCase()}`,
                     value: commandList,
                     inline: false,
                   });
@@ -243,15 +246,13 @@ export default class implements PrefixCommand {
                   embed.addFields({
                     name: `${
                       client.config.Emoji.E_LOADING
-                    }  ${directory.toUpperCase()} Commands [${
-                      filteredCommands.size
-                    }]`,
+                    }  ${directory.toUpperCase()} Commands`,
                     value: commandList,
                     inline: false,
                   });
                 } else {
                   embed.addFields({
-                    name: `❯  ${directory.toUpperCase()} [0]`,
+                    name: `${directory.toUpperCase()} [0]`,
                     value: "No commands found.",
                     inline: false,
                   });

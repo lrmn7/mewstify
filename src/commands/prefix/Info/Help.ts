@@ -219,7 +219,7 @@ export default class implements PrefixCommand {
                 )) {
                   const commandList = commands.join(", ");
                   embed.addFields({
-                    name: `❯ ${category.toUpperCase()} [${commands.length}]`,
+                    name: `${category.toUpperCase()}`,
                     value: commandList,
                     inline: false,
                   });
@@ -246,15 +246,13 @@ export default class implements PrefixCommand {
                   embed.addFields({
                     name: `${
                       client.config.Emoji.E_LOADING
-                    }  ${directory.toUpperCase()} Commands [${
-                      filteredCommands.size
-                    }]`,
+                    }  ${directory.toUpperCase()} Commands`,
                     value: commandList,
                     inline: false,
                   });
                 } else {
                   embed.addFields({
-                    name: `❯  ${directory.toUpperCase()} [0]`,
+                    name: `${directory.toUpperCase()} [0]`,
                     value: "No commands found.",
                     inline: false,
                   });

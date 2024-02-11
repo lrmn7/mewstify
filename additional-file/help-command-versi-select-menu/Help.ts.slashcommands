@@ -49,19 +49,22 @@ export default class implements SlashCommand {
     const button = new ActionRowBuilder<ButtonBuilder>()
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Invite Me")
+          .setLabel("Invite")
+          .setEmoji(client.config.Emoji.E_INVITE || "📨")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.INVITE_URL)
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel("Server Support")
+          .setEmoji(client.config.Emoji.E_SUPPORT || "💬")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.SERVER_SUPPORT)
       )
       .addComponents(
         new ButtonBuilder()
-          .setLabel("Vote Me")
+          .setLabel("Vote")
+          .setEmoji(client.config.Emoji.E_VOTE || "👍")
           .setStyle(ButtonStyle.Link)
           .setURL(client.config.bot.VOTE_URL)
       );
@@ -170,7 +173,7 @@ export default class implements SlashCommand {
                 )) {
                   const commandList = commands.join(", ");
                   embed2.addFields({
-                    name: `❯ ${category.toUpperCase()} [${commands.length}]`,
+                    name: `${category.toUpperCase()}`,
                     value: commandList,
                     inline: false,
                   });
@@ -190,9 +193,7 @@ export default class implements SlashCommand {
                   .addFields({
                     name: `${
                       client.config.Emoji.E_LOADING
-                    }  ${directory.toUpperCase()} [${
-                      client.slash.filter((c) => c.category === directory).size
-                    }]`,
+                    }  ${directory.toUpperCase()}`,
                     value: `${client.slash
                       .filter((c) => c.category === directory)
                       .map((c) => `\`${c.name.at(-1)}\``)

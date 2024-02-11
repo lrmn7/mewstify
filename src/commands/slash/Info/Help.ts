@@ -173,7 +173,7 @@ export default class implements SlashCommand {
                 )) {
                   const commandList = commands.join(", ");
                   embed2.addFields({
-                    name: `❯ ${category.toUpperCase()} [${commands.length}]`,
+                    name: `${category.toUpperCase()}`,
                     value: commandList,
                     inline: false,
                   });
@@ -193,9 +193,7 @@ export default class implements SlashCommand {
                   .addFields({
                     name: `${
                       client.config.Emoji.E_LOADING
-                    }  ${directory.toUpperCase()} [${
-                      client.slash.filter((c) => c.category === directory).size
-                    }]`,
+                    }  ${directory.toUpperCase()}`,
                     value: `${client.slash
                       .filter((c) => c.category === directory)
                       .map((c) => `\`${c.name.at(-1)}\``)
