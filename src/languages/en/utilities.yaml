@@ -44,3 +44,7 @@ error_emoji: "An error occurred while processing emoji. Please try again later."
 github_nouser: "Could not find a user with this name **%{username}** on GitHub."
 github_usage: "Oops! Invalid commands.\n Please use the following commands `%{usage}`"
 github_error: "An error occurred while processing GitHub. Please try again later."
+
+new_avatar_loading: "<a:loading:1169254882193186847> Loading new avatar..."
+new_avatar_not_gif: "This is not a valid gif."
+new_avatar_success: "New avatar has been set successfully!"
