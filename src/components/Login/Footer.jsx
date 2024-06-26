@@ -15,7 +15,7 @@ export function Footer() {
                     Are you ready to get your music stats?
                 </span>
                 <br /> {/* Ini adalah tag <br> yang digunakan secara langsung */}
-                <SpotifyButton url={logIn} classNames='mt-8'>
+                <SpotifyButton onPress={logIn} classNames='mt-8'>
                     Log in with Spotify
                 </SpotifyButton>
             </div>
