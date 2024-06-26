@@ -53,6 +53,10 @@ export function NavbarHome() {
         </NavbarMenuItem>
     ))
 
+    const handleNavbarBrandClick = () => {
+        history.push('/home')
+    }
+
     return (
         <Navbar maxWidth='xl' height={'6rem'} className={'bg-chinese-black'} onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
@@ -63,8 +67,10 @@ export function NavbarHome() {
                     />
                 }
                 <NavbarBrand>
-                    <Logo classNames='w-8 h-8 sm:w-10 sm:h-10 mr-2' />
-                    <p className='hidden sm:flex text-2xl font-bold text-inherit'>Mewstify</p>
+                <Link to='/home' onClick={handleNavbarBrandClick} className='flex items-center'>
+                        <Logo classNames='hidden sm:flex w-8 h-8 sm:w-10 sm:h-10 mr-2' />
+                        <p className='hidden sm:flex text-2xl font-bold text-inherit'>Mewstify</p>
+                    </Link>
                 </NavbarBrand>
             </NavbarContent>
 
