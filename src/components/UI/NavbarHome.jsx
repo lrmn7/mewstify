@@ -54,7 +54,7 @@ export function NavbarHome() {
     ))
 
     const handleNavbarBrandClick = () => {
-        history.push('/home')
+        history.push('/')
     }
 
     return (
