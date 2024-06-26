@@ -45,4 +45,4 @@
 ![Artist Playlist](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/artist_details.png)
 
 *Track Details*
-![Track Details](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/track_details)
+![Track Details](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/track_details.png)
