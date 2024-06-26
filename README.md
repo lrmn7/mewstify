@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/lrmn7/mewstify/main/src/images/preview.png" ></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lrmn7/mewstify/main/images/preview.png" ></p>
 <h3 align="center">Your Spotify stats year-round.</h3>
 
 ## ✨ Features
