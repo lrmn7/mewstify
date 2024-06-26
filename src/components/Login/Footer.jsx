@@ -1,5 +1,5 @@
 import { SpotifyButton } from '../Button'
-import { accessUrl } from '../../api/getAuthorization'
+import { accessUrl } from '../../api/getAuth'
 
 export function Footer() {
     return (
