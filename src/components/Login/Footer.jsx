@@ -1,5 +1,5 @@
 import { SpotifyButton } from '../Button'
-import { accessUrl } from '../../api/getAuth'
+import { logIn } from '../../api/getAuth'
 
 export function Footer() {
     return (
@@ -15,7 +15,7 @@ export function Footer() {
                     Are you ready to get your music stats?
                 </span>
                 <br /> {/* Ini adalah tag <br> yang digunakan secara langsung */}
-                <SpotifyButton url={accessUrl} classNames='mt-8'>
+                <SpotifyButton url={logIn} classNames='mt-8'>
                     Log in with Spotify
                 </SpotifyButton>
             </div>
