@@ -30,3 +30,19 @@
 - View artist genres, follower count and popularity.
 - View artist's top tracks.
 - Discover similar artists.
+
+## :framed_picture: How it works
+
+![Demo](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/preview.gif)
+
+*Home*
+![Home](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/home.png)
+
+*Top Genres*
+![Top Genres](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/preview.gif)
+
+*Artist Details*
+![Artist Playlist](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/artist_details.png)
+
+*Track Details*
+![Track Details](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/track_details)
