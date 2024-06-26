@@ -8,7 +8,8 @@
 - View details for your top:
   - Artists
   - Tracks
-  - Genres
+  - Recently Played
+  - Currently Playing
 - Get data broken down for:
   - Last 4 Weeks
   - Last 6 Months
