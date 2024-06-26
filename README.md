@@ -38,8 +38,8 @@
 *Home*
 ![Home](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/home.png)
 
-*Top Genres*
-![Top Genres](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/preview.gif)
+*Recently Tracks*
+![Top Genres](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/recently_tracks.png)
 
 *Artist Details*
 ![Artist Playlist](https://raw.githubusercontent.com/lrmn7/mewstify/main/images/artist_details.png)
