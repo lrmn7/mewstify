@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    width: 7px;     /* Tamaño del scroll en vertical */
+    height: 7px;    /* Tamaño del scroll en horizontal */
+    background: #111;  /* Color del scroll */
+}
+
+/* Cambiamos el thumb cuando esté en active o hover */
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+    background: #4ade80;
+    border-radius: 10px;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 4px;
+}
