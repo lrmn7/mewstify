@@ -1,5 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/lrmn7/mewstify/main/images/preview.png" ></p>
-<h3 align="center">Your Spotify stats year-round.</h3>
+<h3 align="center">Explore Your Spotify Stats and Uncover Your Music Insights</h3>
 
 ## ✨ Features
 
