@@ -20,8 +20,13 @@ export function Footer() {
                 </SpotifyButton>
             </div>
             <div className='text-center mt-8'>
-                <p className='text-sm sm:text-lg text-foreground-500'>
-                <span className='text-guppie-green'>Mewstify</span> is not affiliated, associated, authorized, endorsed by, or in any way officially connected with © Spotify AB.
+                <p className='text-sm sm:text-l text-foreground-400'>
+                All copyrighted content (i.e. album artwork) on <span className='text-guppie-green'>Mewstify</span> are owned by their respective owners. Data is provided by Spotify AB. <span className='text-guppie-green'>Mewstify</span> is in no way affiliated with Spotify AB.
+                </p>
+            </div>
+            <div className='text-center mt-4'>
+                <p className='text-l sm:text-l text-foreground-500'>
+                &copy; {new Date().getFullYear()} Made with ♥ in Bogor <br />
                 </p>
             </div>
         </section>
